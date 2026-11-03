@@ -1,0 +1,67 @@
+
+Call:
+glm(formula = exposure ~ ., family = binomial(link = "logit"), 
+    data = variables_clean)
+
+Coefficients:
+                                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                   -3.13457    1.34289  -2.334 0.019586 *  
+gender_at_t0M                                 -0.75621    0.65418  -1.156 0.247695    
+gender_at_t0O                                -18.90881 3471.16280  -0.005 0.995654    
+age_cat_at_t065-74                            -1.26447    0.86844  -1.456 0.145386    
+age_cat_at_t075-84                            -0.64945    1.31336  -0.494 0.620960    
+age_cat_at_t0>=85                              0.95661    0.98633   0.970 0.332114    
+CKD_at_t01-4                                  -0.55371    0.86668  -0.639 0.522899    
+CKD_at_t05                                    -0.46942    0.73335  -0.640 0.522108    
+Obesity_at_t0                                  3.75974    1.33034   2.826 0.004711 ** 
+Heart_transplant_at_t0                         0.41205    0.71370   0.577 0.563709    
+Microvascular_complications_at_t0              2.43668    0.72169   3.376 0.000735 ***
+Diabetic_neuropathy_at_t0                      0.43068    0.59514   0.724 0.469273    
+Diabetic_Retinopathy_at_t0                    -0.20275    1.00086  -0.203 0.839470    
+Keto_lactate_acidosis_at_t0                   -2.64364    1.13527  -2.329 0.019878 *  
+Lower_limb_amputations_at_t0                   0.07852    0.62328   0.126 0.899744    
+COPD_at_t0                                     1.16348    0.63973   1.819 0.068956 .  
+Cancer_at_t0                                   0.94317    0.58991   1.599 0.109854    
+Major_organ_specific_bleeding_at_t0            2.34899    0.85433   2.750 0.005969 ** 
+Bariatric_surgery_at_t0                        0.43781    0.76873   0.570 0.568999    
+Kidney_Transplantation_at_t0                   1.06419    0.63741   1.670 0.095008 .  
+Dialysis_at_t0                                 0.72248    0.87806   0.823 0.410613    
+Metformin_at_t0                              -50.48269 4262.35477  -0.012 0.990550    
+Sulfonylurea_at_t0                            -2.46678    1.14813  -2.149 0.031673 *  
+Sulfonamides_at_t0                             0.47371    0.94512   0.501 0.616218    
+Alfa_glucosidase_inhibitors_at_t0              6.42153    3.54295   1.812 0.069912 .  
+Thiazolidinediones_at_t0                       2.21642    0.75860   2.922 0.003481 ** 
+Other_GLDs_at_t0                               0.76469    1.01787   0.751 0.452493    
+Insulin_at_t0                                 21.50385 6522.63874   0.003 0.997370    
+ACE_inhibitors_at_t0                           0.20576    1.89047   0.109 0.913330    
+ARBs_at_t0                                    -1.69659    1.09891  -1.544 0.122617    
+Beta_blockers_at_t0                           -0.70853    0.93617  -0.757 0.449142    
+Low_high_ceiling_diuretics_at_t0              14.70063 6522.63910   0.002 0.998202    
+Aldosterone_antagonists_at_t0                  0.32343    0.78350   0.413 0.679755    
+Thiazide_diuretics_at_t0                      -0.27098    0.81524  -0.332 0.739594    
+Calcium_channel_blockers_at_t0                -1.61732    1.03201  -1.567 0.117079    
+Digitoxin_digoxin_at_t0                        1.10435    1.25333   0.881 0.378247    
+Antiarrhythmics_at_t0                         31.82178 2526.00802   0.013 0.989949    
+Statins_at_t0                                 -1.77074    1.39880  -1.266 0.205550    
+Warfarin_at_t0                                -1.39382    0.96749  -1.441 0.149680    
+Aspirin_at_t0                                  0.06940    0.93583   0.074 0.940887    
+Purinergic_receptor_P2Y12_antagonists_at_t0   -0.61477    0.91018  -0.675 0.499402    
+Other_antiplatelets_at_t0                      0.42725    1.48106   0.288 0.772982    
+Corticosteroids_at_t0                          0.94111    1.03472   0.910 0.363073    
+Weight_loss_drugs_at_t0                       -1.04223    0.77071  -1.352 0.176281    
+Ischemic_cerebrovascular_disease_at_t0       -15.60750 1786.36517  -0.009 0.993029    
+Peripheral_arterial_disease_at_t0             16.75239 1786.36528   0.009 0.992518    
+Dyslipidaemia_at_t0                            0.98893    1.15191   0.859 0.390607    
+Hypertension_at_t0                            -2.67716    1.59148  -1.682 0.092534 .  
+yrsdiab_at_t0                                 -0.23717    0.81008  -0.293 0.769700    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 201.28  on 177  degrees of freedom
+Residual deviance: 112.49  on 129  degrees of freedom
+AIC: 210.49
+
+Number of Fisher Scoring iterations: 17
+

@@ -1,0 +1,96 @@
+"",CPRD_PC_HOSP_overall,CPRD_PC_HOSP_exp1,CPRD_PC_HOSP_exp0
+Datasource,CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data
+"",Overall,Dapagliflozin,Dpp4-i
+N,178,45,133
+Characteristics,"","",""
+Age (years),"","",""
+  Mean (SD),57.8 (14.8),57.4 (13.6),57.9 (15.3)
+   Median (IQ Range),54.5 (45-65),64 (45-65),45 (45-65)
+Age (years) N (%),"","",""
+   <65,123 (69.1%),32 (71.1%),91 (68.4%)
+   65-74,26 (14.6%),8 (17.8%),18 (13.5%)
+   75-84,14 (7.9%),< 5 (%),13 (9.8%)
+   >=85,15 (8.4%),< 5 (%),11 (8.3%)
+Gender N (%),"","",""
+   Male,103 (57.9%),26 (57.8%),77 (57.9%)
+   Female,72 (40.4%),19 (42.2%),53 (39.8%)
+   Other,< 5 (%),0 (0%),< 5 (%)
+Calendar year at t0,"","",""
+2013,0 (0%),0 (0%),0 (0%)
+2014,8 (4.5%),< 5 (%),5 (3.8%)
+2015,7 (3.9%),< 5 (%),6 (4.5%)
+2016,10 (5.6%),6 (13.3%),< 5 (%)
+2017,13 (7.3%),< 5 (%),10 (7.5%)
+2018,17 (9.6%),< 5 (%),13 (9.8%)
+2019,20 (11.2%),< 5 (%),16 (12%)
+2020,17 (9.6%),6 (13.3%),11 (8.3%)
+2021,21 (11.8%),7 (15.6%),14 (10.5%)
+2022,65 (36.5%),11 (24.4%),54 (40.6%)
+2023,0 (0%),0 (0%),0 (0%)
+2024,0 (0%),0 (0%),0 (0%)
+2025,0 (0%),0 (0%),0 (0%)
+Duration of diabetes,"","",""
+Mean (SD),0.6 (0.4),0.6 (0.4),0.6 (0.4)
+Median (IQ range),0.6 (0.3-0.9),0.6 (0.3-0.9),0.6 (0.3-0.9)
+Missing data pre-imputation,"","",""
+HbA1c,"","",""
+Mean (SD),92.4 (45.2),97.4 (43.8),91 (46.5)
+Median (IQ range),91.7 (49.9-137.2),106.8 (71.6-134.4),90.8 (48.1-136.6)
+Missing N (%),150 (84.3%),39 (86.7%),111 (83.5%)
+eGFR,"","",""
+Mean (SD),51.4 (61.6),54.2 (77.2),50.7 (58.7)
+Median (IQ range),14.9 (8.4-89.4),9.3 (8-89.3),18.5 (8.5-87.2)
+Missing N (%),122 (68.5%),35 (77.8%),87 (65.4%)
+Tobacco use,"","",""
+None,0 (0%),0 (0%),0 (0%)
+Past,0 (0%),0 (0%),0 (0%)
+Current,0 (0%),0 (0%),0 (0%)
+missing N (%),178 (100%),45 (100%),133 (100%)
+(Co)Morbidities,"","",""
+Obesity,12 (6.7%),6 (13.3%),6 (4.5%)
+Heart transplant,137 (77%),35 (77.8%),102 (76.7%)
+Microvascular complications,43 (24.2%),18 (40%),25 (18.8%)
+Severe hypoglycaemia,0 (0%),0 (0%),0 (0%)
+Diabetic neuropathy,58 (32.6%),17 (37.8%),41 (30.8%)
+Diabetic Retinopathy,160 (89.9%),38 (84.4%),122 (91.7%)
+Keto-/lactate acidosis,28 (15.7%),5 (11.1%),23 (17.3%)
+Lower limb amputations,72 (40.4%),19 (42.2%),53 (39.8%)
+COPD,57 (32%),18 (40%),39 (29.3%)
+Cancer,80 (44.9%),24 (53.3%),56 (42.1%)
+Major organ specific bleeding,37 (20.8%),15 (33.3%),22 (16.5%)
+Bariatric surgery,34 (19.1%),10 (22.2%),24 (18%)
+CKD stages 1-4,31 (17.4%),< 5 (%),27 (20.3%)
+CKD stage 5,39 (21.9%),11 (24.4%),28 (21.1%)
+Kidney Transplantation,67 (37.6%),19 (42.2%),48 (36.1%)
+Dialysis,23 (12.9%),9 (20%),14 (10.5%)
+Comedications,"","",""
+Metformin,< 5 (%),0 (0%),< 5 (%)
+Sulfonylurea,21 (11.8%),< 5 (%),17 (12.8%)
+Sulfonamides,26 (14.6%),6 (13.3%),20 (15%)
+Alfa glucosidase inhibitors,< 5 (%),< 5 (%),< 5 (%)
+Thiazolidinediones,41 (23%),15 (33.3%),26 (19.5%)
+Other GLDs,21 (11.8%),6 (13.3%),15 (11.3%)
+Insulin,< 5 (%),< 5 (%),0 (0%)
+ACE inhibitors,< 5 (%),< 5 (%),< 5 (%)
+ARBs,17 (9.6%),5 (11.1%),12 (9%)
+Beta-blockers,40 (22.5%),10 (22.2%),30 (22.6%)
+Low/high ceiling diuretics,< 5 (%),< 5 (%),0 (0%)
+Aldosterone antagonists,41 (23%),12 (26.7%),29 (21.8%)
+Thiazide diuretics,32 (18%),10 (22.2%),22 (16.5%)
+Calcium channel blockers,29 (16.3%),7 (15.6%),22 (16.5%)
+Digitoxin/digoxin,14 (7.9%),< 5 (%),11 (8.3%)
+Antiarrhythmics,5 (2.8%),< 5 (%),< 5 (%)
+Statins,19 (10.7%),< 5 (%),17 (12.8%)
+Warfarin,34 (19.1%),9 (20%),25 (18.8%)
+Aspirin,25 (14%),8 (17.8%),17 (12.8%)
+Purinergic receptor P2Y_12 antagonists,37 (20.8%),13 (28.9%),24 (18%)
+Other antiplatelets,8 (4.5%),< 5 (%),7 (5.3%)
+Corticosteroids,14 (7.9%),< 5 (%),11 (8.3%)
+Weight loss drugs,34 (19.1%),9 (20%),25 (18.8%)
+Established ACVD,"","",""
+Ischemic heart disease,0 (0%),0 (0%),0 (0%)
+Ischemic cerebrovascular disease,39 (21.9%),15 (33.3%),24 (18%)
+Peripheral arterial disease,37 (20.8%),14 (31.1%),23 (17.3%)
+ACVD Risk factors,"","",""
+Dyslipidaemia,15 (8.4%),7 (15.6%),8 (6%)
+Hypertension,11 (6.2%),< 5 (%),8 (6%)

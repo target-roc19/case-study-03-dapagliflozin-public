@@ -1,0 +1,9 @@
+ds,analysisRMST,exposure_stratum,N_,N_outcome_,PY_,IR_,IRll_,IRul_,RMST_,RMST_lb_,RMST_ub_,RMSTdiff_,RMSTdiffll_,RMSTdifful_,RMST_adj_,RMST_adj_lb_,RMST_adj_ub_,RMSTdiff_adj_,RMSTdiff_adj_ll_,RMSTdiff_adj_ul_,check
+CPRD_PC_HOSP,E1,0,133,0,305.92,0,0,12.1,,,,,,,,,,,,,0
+CPRD_PC_HOSP,E1,1,45,< 5,120.58,24.88,5.1,72.7,,,,,,,,,,,,,1
+CPRD_PC_HOSP,E2,0,133,0,83.3,0,0,44.3,,,,,,,,,,,,,0
+CPRD_PC_HOSP,E2,1,45,0,29.56,0,0,124.8,,,,,,,,,,,,,0
+CPRD_PC_HOSP,E3_year3,0,133,0,229.89,0,0,16,,,,,,,,,,,,,0
+CPRD_PC_HOSP,E3_year3,1,45,< 5,91.28,32.87,6.8,96,,,,,,,,,,,,,1
+CPRD_PC_HOSP,E3_year5,0,133,0,305.92,0,0,12.1,,,,,,,,,,,,,0
+CPRD_PC_HOSP,E3_year5,1,45,< 5,120.58,24.88,5.1,72.7,,,,,,,,,,,,,1

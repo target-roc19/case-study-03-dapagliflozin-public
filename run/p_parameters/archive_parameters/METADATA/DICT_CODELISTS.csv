@@ -1,0 +1,163 @@
+codelist_id,module1,status,description
+C_AF_COV,,IN PROGRESS,atrial fribrilation
+C_AMI_AESI,cardiovascular,FINISHED,myocardial infarction
+C_CARDIOMYOPATH_EXT_COV,cardiomyo,FINISHED,cardiomyopathy induced by external agents
+C_CARDIOMYOPATH_PERIPARTUM_COV,cardiomyo,FINISHED,peripartum cardiopathy
+C_HF_COV,cardiomyo,FINISHED,heart failure
+C_IHD_COV,cardiovascular,FINISHED,etablished ACVD // ischaemic heart disease // Ischemic heart disease
+C_UNST_ANGINA_AESI,cardiovascular,FINISHED,unstable angina
+C_VALV_AF_COV,,IN PROGRESS,valvular atrial fibrilation
+D_CHR_LIVER_DISEASE_COV,hepatic,IN PROGRESS,Chronic liver disease
+D_GASTRITIS_ESOPHAGITIS_COV,hepatic,IN PROGRESS,gastritis/esophagitis
+D_GERD_COV,,IN PROGRESS,gastroesophageal reflux disease (GERD)
+D_GI_BLEED_COV,,IN PROGRESS,history of GI bleeding
+D_HEPATOTOX_AESI,hepatic,FINISHED,hepatotoxicity
+D_IBS_COV,,IN PROGRESS,Inflammatory bowel disease
+D_LIVER_DISEASE_COV,hepatic,FINISHED,liver disease
+D_MAJOR_GI_BLEED_AESI,bleed,FINISHED,major GI bleeding
+D_OESOPHAGEAL_VARICES_COV,hepatic,IN PROGRESS,oesophageal varices
+D_PEPTIC_ULCER_COV,,IN PROGRESS,peptic ulcer disease
+D_SEV_HEPATIC_IMPAIRMENT_COV,hepatic,IN PROGRESS,severe hepatic impairement
+DP_ACEI,drugs,IN PROGRESS,ACE inhibitors
+DP_ALDOSTERONE_ANTA,drugs,IN PROGRESS,Aldosterone antagonists
+DP_ALPHA_GLUCO_INH,drugs,IN PROGRESS,Alfa glucosidase inhibitors
+DP_ANITIHISTAMINE,drugs,IN PROGRESS,antihistamines
+DP_ANTIARIRHYMTHIC,drugs,IN PROGRESS,antiarrhythmics
+DP_ANTIHYPERTENSIVE,drugs,IN PROGRESS,antihypertensive therapy
+DP_ANTIPLATELET,drugs,IN PROGRESS,antiplatelet drugs
+DP_ANTIPLATELET_OTHER,drugs,IN PROGRESS,other antiplatelets
+DP_APIXABAN,drugs,IN PROGRESS,apixaban
+DP_ARB,drugs,IN PROGRESS,ARBs
+DP_ASPIRIN,drugs,IN PROGRESS,aspirin
+DP_BETA_BLOCKER,drugs,IN PROGRESS,beta-blockers
+DP_BIOLOGICAL,drugs,IN PROGRESS,biologicals
+DP_CCB,drugs,IN PROGRESS,calcium channel blockers
+DP_CORTICOSTEROID,drugs,IN PROGRESS,corticosteroids
+DP_DAPAGLIFLOZIN,drugs,IN PROGRESS,dapagliflozin
+DP_DDP4I,drugs,IN PROGRESS,DDP4 inhibitors
+DP_DIGOXIN,drugs,IN PROGRESS,digitoxin/digoxin
+DP_DIUR,drugs,IN PROGRESS,diuretics
+DP_DPP4I,drugs,IN PROGRESS,DPP4 inhibitors
+DP_ESTROGEN_CONTRACEPTIVE,drugs,IN PROGRESS,estrogen-containing oral contraceptives or estrogen replacement therapy
+DP_HEPATOTOX,drugs,IN PROGRESS,hepatotoxic drugs
+DP_ICS,drugs,IN PROGRESS,inhaled corticosteroid
+DP_INSULIN,drugs,IN PROGRESS,insulin
+DP_LIPID_LOWERING,drugs,IN PROGRESS,current lipid lowering therapy at index
+DP_LOOP_DIURETIC,drugs,IN PROGRESS,low/high ceiling diuretics
+DP_METFORMIN,drugs,IN PROGRESS,metformin
+DP_NSAID,drugs,IN PROGRESS,NSAIDs
+DP_OTHER_GLD,drugs,IN PROGRESS,Other GLDs
+DP_P2Y12_INHIBITOR,drugs,IN PROGRESS,purinergic receptor P2Y₁₂ antagonists
+DP_PPI,drugs,IN PROGRESS,PPIs
+DP_PSYCHOTROPIC,drugs,IN PROGRESS,psychotropic drugs
+DP_RIVAROXABAN,drugs,IN PROGRESS,rivaroxaban
+DP_SABA,drugs,IN PROGRESS,SABA
+DP_SACUBITRIL_VALSARTAN,drugs,IN PROGRESS,sacubitril/valsartan
+DP_SGLT2I,drugs,IN PROGRESS,SGLT2i use
+DP_SSRI,drugs,IN PROGRESS,SSRIs
+DP_STATIN,drugs,IN PROGRESS,statins
+DP_SULFONYLUREA,drugs,IN PROGRESS,sulfonylurea
+DP_SULONAMIDE,drugs,IN PROGRESS,sulfonamides
+DP_THIAZIDE,drugs,IN PROGRESS,thiazide diuretics
+DP_TOLVAPTAN,drugs,IN PROGRESS,tolvaptan
+DP_TZD,drugs,IN PROGRESS,thiazolidinediones
+DP_VKA,drugs,IN PROGRESS,DOAC // VKA
+DP_WARFARIN,drugs,IN PROGRESS,warfarin
+DP_WEIGHT_LOSS,drugs,IN PROGRESS,weight loss drugs
+E_DM_COV,diabetes,IN PROGRESS,diabetes mellitus
+E_DM_NEUROPATHY_COV,diabetes,IN PROGRESS,diabetic neuropathy
+E_DM_RETINOPATHY_COV,diabetes,IN PROGRESS,diabetic retinopathy
+E_HYPERLIPIDAEMIA_COV,dislipidaemia,FINISHED,dyslipidaemia
+E_MICROVASC_COMP_COV,diabetes,IN PROGRESS,microvascular complications
+E_OBESITY_COV,obesity,FINISHED,obesity
+E_T1DM_COV,diabetes,FINISHED,type 1 diabetes
+E_T2DM_COV,diabetes,FINISHED,type 2 diabetes
+G_ADPKD_COV,adpkd,FINISHED,autosomal dominant polycystic kidney disease
+G_CKD_ST123_COV,kidney,IN PROGRESS,chronic kidney disease stage 1-3
+G_CKD_ST14_COV,kidney,IN PROGRESS,diagnosis of chronic kidney disease stage 1-4 // lab values representing chronic kidney disease stage 1-4
+G_CKD_ST456_COV,kidney,IN PROGRESS,chronic kidney disease stage 4-5
+G_CKD_ST5_COV,kidney,IN PROGRESS,diagnosis code for chronic kidney disease stage 5 // lab values chronic kidney disease stage 5
+HOSP,,IN PROGRESS,pneumonia
+IM_RHEUM_COV,immune,FINISHED,
+L_ALCOHOL_DISORDER_COV,alcohol,FINISHED,alcohol use disorders
+L_ALCOHOL_DISORDERS_COV,alcohol,IN PROGRESS,alcohol use disorders
+L_CURRENT_SMOKER_COV,tobacco,IN PROGRESS,current smoker
+L_NEVER_SMOKED_COV,tobacco,IN PROGRESS,never smoked
+L_SMOKING_COV,tobacco,FINISHED,smoking
+L_TOBACCO_COV,tobacco,FINISHED,current smoker
+MACE_AESI,,IN PROGRESS,MACE
+N_STROKE_AESI,stroke,FINISHED,stroke
+ONC_GI_CANCER_COV,malignancies,IN PROGRESS,cancer GI tract
+ONC_MALIGNANCIES_COV,malignancies,IN PROGRESS,cancer // malignancies
+OUTPATIENT_VISIT,,IN PROGRESS,
+R_ASTHMA_COV,respiratory,FINISHED,asthma
+R_COPD_COV,respiratory,IN PROGRESS,COPD
+R_PNEUMONIA_AESI,infection,FINISHED,overnight hospitalization // pneumonia
+TP_BARIATRIC_SURGERY_COV,,IN PROGRESS,bariatric surgery
+TP_DIALYSIS_COV,kidney,IN PROGRESS,dialysis
+TP_HEART_TRANSPLANT_COV,,IN PROGRESS,heart transplant
+TP_LOWER_LIMB_AMPUTATION_COV,,IN PROGRESS,lower limb amputations
+TP_RENAL_TRANSPLANT_COV,,IN PROGRESS,renal transplant
+V_CVD_COV,,IN PROGRESS,
+V_HYPERTENSION_COV,hypertension,FINISHED,hypertension
+V_HYPOTENSION_COV,hypotension,FINISHED,hypotension
+V_ICVD_COV,stroke,FINISHED,etablished ACVD // ischaemic cerebrovascular disease // Ischemic cerebrovascular disease
+V_PAD_COV,pad,FINISHED,etablished ACVD // peripheral arterial disease
+"
+DP_VFF
+",,IN PROGRESS,
+CASE3_COMORBIDITIES,,IN PROGRESS,
+DP_ANTIBIOTICRESP,drugs,IN PROGRESS,
+DP_CARDIOVASCULAR,drugs,IN PROGRESS,
+DP_DIABETES,drugs,IN PROGRESS,diabetes mellitus
+DP_ICSLABA,drugs,IN PROGRESS,inhaled corticosteroid + long-acting beta-2 adrenoceptor agonist
+DP_INFLUENZA,drugs,IN PROGRESS,
+DP_LAMA,drugs,IN PROGRESS,
+DP_LEUCOTRIENEANTA,drugs,IN PROGRESS,
+DP_PNEUMOCOCCAL,drugs,IN PROGRESS,
+DP_SAMA,drugs,IN PROGRESS,
+DP_VFF,drugs,IN PROGRESS,vilanterol + fluticasone furoate
+D_MAJOR_ORGAN_BLEED_COV,,IN PROGRESS,major organ specific bleeding
+E_KETO_LACTATE_ACIDOSIS_COV,,IN PROGRESS,(keto)lactate acidosis
+E_SEVERE_HYPO_COV,,IN PROGRESS,severe hypoglycaemia
+IM_ANGIOEDEMA_AESI,,IN PROGRESS,angioedema
+IM_AUTOIMMUNE_COV,,IN PROGRESS,autoimmune diseases
+IM_IMMUNE_COV,,IN PROGRESS,
+IM_LYMPHOPROLIF_COV,,IN PROGRESS,lymphoproliferative diseases
+IM_SEASONAL_ALLERGY_COV,,IN PROGRESS,seasonal alergies
+I_INFECTION_COV,,IN PROGRESS,infections
+L_EX_SMOKER_COV,,IN PROGRESS,ex_smoker
+L_NON_SMOKER_COV,,IN PROGRESS,non smoker
+MENT_INTELLECTUALDISABILITY_COV,,IN PROGRESS,intellectual disability 
+M_LOCAL_TISSUE_TRAUMA_COV,,IN PROGRESS,localised tissue trauma
+O_HYPERKALAEMIA_AESI,,IN PROGRESS,hyperkalemia
+R_ACEI_COUGH_COV,,IN PROGRESS,ACEI cough
+R_CONGRESPMALF_COV,,IN PROGRESS,congenital respiratory malforma
+,,DELETED,
+",,IN PROGRESS,",,DELETED,
+ACVD,,DELETED,established ACVD
+ACVD_RF,,DELETED,ACVD Risk factors
+C_ANGIOEDEMA_AESI,angioedema,DELETED,angioedema
+CASE3_COM,,DELETED,
+D_MAJOR_ORGAN_BLEED_AESI,bleed,DELETED,major organ specific bleeding
+DP_ICS_LABA,drugs,DELETED,inhaled corticosteroid + long-acting beta-2 adrenoceptor agonist
+DP_V_FF,drugs,DELETED,vilanterol + fluticasone furoate
+DP_V_FF,drugs,DELETED,
+E_KETO_LACTATE_ACIDOSIS_AESI,diabetes,DELETED,(keto)lactate acidosis
+E_SEVERE_HYPO_AESI,,DELETED,severe hypoglycaemia
+I_ANY_INFECTION_COV,infection,DELETED,infections
+IM_AUTOIMMUNE,,DELETED,autoimmune diseases
+IM_LYMPHOPROLIF,,DELETED,lymphoproliferative diseases
+IM_SEASONAL_ALLERGY,,DELETED,seasonal alergies
+IM_UMMUNE_COV,immune,DELETED,
+M_LOCAL_TISSUE_TRAUMA,tissue,DELETED,localised tissue trauma
+MACE,,DELETED,MACE
+MENT_INTELLECTUAL_DISABILITY_COV,,DELETED,intellectual disabilityÂ 
+O_HYPRKALAEMIA_AESI,,DELETED,hyperkalemia
+Onc_MALIGNANCIES_COV,,DELETED,cancer
+R_ACEI_COUGH,allergy,DELETED,ACEI cough
+R_CONG_RESP_MALF_COV,,DELETED,congenital respiratory malforma
+TP_BARIATRIC_SURGERY,bariatric,DELETED,bariatric surgery
+TP_HEART_TRANSPLANT,,DELETED,heart transplant
+TP_LOWER_LIMB_AMPUTATION,amputations,DELETED,lower limb amputations
+TP_RENAL_TRANSPLANT,,DELETED,renal transplant

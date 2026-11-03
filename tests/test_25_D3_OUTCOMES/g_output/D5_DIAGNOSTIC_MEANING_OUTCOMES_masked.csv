@@ -1,0 +1,6 @@
+outcome_type,outcome_prompt,N
+C_AMI_AESI,A,< 5
+C_AMI_AESI,B,< 5
+C_AMI_AESI,C,< 5
+DEATH,,< 5
+N_STROKE_AESI,A,< 5

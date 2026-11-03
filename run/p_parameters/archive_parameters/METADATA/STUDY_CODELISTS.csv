@@ -1,0 +1,244 @@
+case_study,location_in_protocol,row,variable_id,as_described_in_protocol,notes,concept_id_description,type,concept_id,type_of_concept_id,status
+case3,table 11,1,,Age at index,,age,no_ingredients,,,
+case3,table 11,2,,Gender,,sex,no_ingredients,,,
+case3,table 11,3,,Frailty,,Frailty,excluded,,,
+case3,table 11,4,,Duration of diabetes,,duration of diabetes,other,,,
+case3,table 11,5,,HbA1c,,HbA1c,other,LAB_HBA1C,procedure_codelist,
+case3,table 11,6,,Comorbidities,At least one recorded diagnosis in time window,,multiple_ingredients,CASE3_COMORBIDITIES,,
+case3,table 11,7,,Obesity,,obesity,event,E_OBESITY_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,8,,Heart transplant,,heart transplant,event,TP_HEARTTRANSPLANT_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,9,,Microvascular complications,,microvascular complications,event,E_DMMICROVASCCOMP_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,10,,Severe hypoglycaemia,,severe hypoglycaemia,event,E_DMSEVEREHYPO_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,11,,Diabetic neuropathy,,diabetic neuropathy,event,E_DMNEUROPATHY_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,12,,Diabetic Retinopathy,,diabetic retinopathy,event,E_DMRETINOPATHY_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,13,,Keto-/lactate acidosis,,(keto)lactate acidosis,event,E_DMKETOLACTATEACIDOSIS_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,14,,Lower limb amputations,,lower limb amputations,event,TP_LOWERLIMBAMPUTATION_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case3,table 11,15,,COPD,,COPD,event,R_COPD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,16,,Cancer,,cancer,event,ONC_MALIGNANCIES_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,17,,Major organ specific bleeding,,major organ specific bleeding,event,D_MAJORORGANBLEED_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,18,,Bariatric surgery,,bariatric surgery,event,TP_BARIATRICSURGERY_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case3,table 11,19,,CKD stages 1-4,,lab values representing chronic kidney disease stage 1-4,event,G_CKDST14_COV,itemset,
+case3,table 11,19,,CKD stages 1-4,,diagnosis of chronic kidney disease stage 1-4,event,G_CKDST14_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,20,,CKD stage 5,,diagnosis code for chronic kidney disease stage 5,multiple_ingredients,G_CKDST5_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,20,,CKD stage 5,,lab values chronic kidney disease stage 5,multiple_ingredients,G_CKDST5_COV,itemset,
+case3,table 11,21,,Kidney Transplantation,,renal transplant,event,TP_RENALTRANSPLANT_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case3,table 11,22,,Dialysis,,dialysis,event,TP_DIALYSIS_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case3,table 11,23,,Metformin,At least one prescription in time window,metformin,medicine,DP_METFORMIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,24,,Sulfonylurea,At least one prescription in time window,sulfonylurea,medicine,DP_SULFONYLUREA,medicines_codelists,IN_CODEMAPPER
+case3,table 11,25,,Sulfonamides,At least one prescription in time window,sulfonamides,medicine,DP_SULONAMIDE,medicines_codelists,IN_CODEMAPPER
+case3,table 11,26,,Alfa glucosidase inhibitors,At least one prescription in time window,Alfa glucosidase inhibitors,medicine,DP_ALPHAGLUCOINH,medicines_codelists,IN_CODEMAPPER
+case3,table 11,27,,Thiazolidinediones,At least one prescription in time window,thiazolidinediones,medicine,DP_TZD,medicines_codelists,IN_CODEMAPPER
+case3,table 11,28,,Other GLDs,At least one prescription in time window,Other GLDs,medicine,DP_OTHERGLD,medicines_codelists,IN_CODEMAPPER
+case3,table 11,29,,Insulin,At least one prescription in time window,insulin,medicine,DP_INSULIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,30,,ACE inhibitors,At least one prescription in time window,ACE inhibitors,medicine,DP_ACEI,medicines_codelists,IN_CODEMAPPER
+case3,table 11,31,,ARBs,At least one prescription in time window,ARBs,medicine,DP_ARB,medicines_codelists,IN_CODEMAPPER
+case3,table 11,32,,Beta-blockers,At least one prescription in time window,beta-blockers,medicine,DP_BETABLOCKER,medicines_codelists,IN_CODEMAPPER
+case3,table 11,33,,Low/high ceiling diuretics,At least one prescription in time window,low/high ceiling diuretics,medicine,DP_LOOPDIURETIC,medicines_codelists,IN_CODEMAPPER
+case3,table 11,34,,Aldosterone antagonists,At least one prescription in time window,Aldosterone antagonists,medicine,DP_ALDOSTERONEANTA,medicines_codelists,IN_CODEMAPPER
+case3,table 11,35,,Thiazide diuretics,At least one prescription in time window,thiazide diuretics,medicine,DP_THIAZIDE,medicines_codelists,IN_CODEMAPPER
+case3,table 11,36,,Calcium channel blockers,At least one prescription in time window,calcium channel blockers,medicine,DP_CCB,medicines_codelists,IN_CODEMAPPER
+case3,table 11,37,,Digitoxin/digoxin,At least one prescription in time window,digitoxin/digoxin,medicine,DP_DIGOXIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,38,,Antiarrhythmics,At least one prescription in time window,antiarrhythmics,medicine,DP_ANTIARIRHYMTHIC,medicines_codelists,IN_CODEMAPPER
+case3,table 11,39,,Statins,At least one prescription in time window,statins,medicine,DP_STATIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,40,,Warfarin,At least one prescription in time window,warfarin,medicine,DP_WARFARIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,41,,Aspirin,At least one prescription in time window,aspirin,medicine,DP_ASPIRIN,medicines_codelists,IN_CODEMAPPER
+case3,table 11,42,,Purinergic receptor P2Y₁₂ antagonists,At least one prescription in time window,purinergic receptor P2Y₁₂ antagonists,medicine,DP_P2Y12INHIBITOR,medicines_codelists,IN_CODEMAPPER
+case3,table 11,43,,Other antiplatelets,At least one prescription in time window,other antiplatelets,medicine,DP_ANTIPLATELETOTHER,medicines_codelists,IN_CODEMAPPER
+case3,table 11,44,,Corticosteroids,At least one prescription in time window,corticosteroids,medicine,DP_CORTICOSTEROID,medicines_codelists,IN_CODEMAPPER
+case3,table 11,45,,Weight loss drugs,At least one prescription in time window,weight loss drugs,medicine,DP_WEIGHTLOSS,medicines_codelists,IN_CODEMAPPER
+case3,table 11,46,,Established ACVD,,established ACVD,multiple_ingredients,,,
+case3,table 11,47,,Ischemic heart disease,,Ischemic heart disease,event,C_IHD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,48,,Ischemic cerebrovascular disease,,Ischemic cerebrovascular disease,event,V_ICVD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,49,,Peripheral arterial disease,,peripheral arterial disease,event,V_PAD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,50,,ACVD Risk factors,,ACVD Risk factors,multiple_ingredients,,,
+case3,table 11,51,,Dyslipidaemia,,dyslipidaemia,event,E_HYPERLIPIDAEMIA_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,52,,Hypertension,,hypertension,event,V_HYPERTENSION_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,53,1,Tobacco use,,current smoker,event,L_CURRENTSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,53,2,Tobacco use,,ex_smoker,event,L_EXSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,53,3,Tobacco use,,never smoked,event,L_NEVERSMOKED_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 11,53,4,Tobacco use,,non smoker,event,L_NONSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 5,1,,Exposure: dapagliflozin,Date of incident prescription for dapagliflozin (time 0),dapagliflozin,medicine,DP_DAPAGLIFLOZIN,medicines_codelists,IN_CODEMAPPER
+case3,table 5,2,,Comparator: DPP4i,Date of incident dispensation for DPP4i (time 0),DDP4 inhibitors,medicine,DP_DDP4I,medicines_codelists,IN_CODEMAPPER
+case3,table 6,1,,Type 2 Diabetes,Diagnosis of T2D prior to index,type 2 diabetes,event,E_T2DM_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,2,,Age,≥40 years at index date,age,no_ingredients,,,
+case3,table 6,3,1,Established ACVD,"Diagnosis of ischemic heart disease, ischemic cerebrovascular disease, or peripheral arterial disease",etablished ACVD,multiple_ingredients,C_IHD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,3,2,Established ACVD,"Diagnosis of ischemic heart disease, ischemic cerebrovascular disease, or peripheral arterial disease",etablished ACVD,multiple_ingredients,V_ICVD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,3,3,Established ACVD,"Diagnosis of ischemic heart disease, ischemic cerebrovascular disease, or peripheral arterial disease",etablished ACVD,multiple_ingredients,V_PAD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,4,,Ischemic heart disease,"Includes diagnosis of myocardial infarction, angina, coronary artery disease",ischaemic heart disease,event,C_IHD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,5,,Ischemic cerebrovascular disease,"Includes diagnosis of ischemic stroke, transient ischemic attack",ischaemic cerebrovascular disease,event,V_ICVD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,6,,Peripheral arterial disease,"Includes diagnosis of claudication, arterial thrombosis, revascularization procedures",peripheral arterial disease,event,V_PAD_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,7,,Dyslipidaemia,Diagnosis of dyslipidaemia,dyslipidaemia,event,E_HYPERLIPIDAEMIA_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,8,,Lipid lowering therapy,Active prescription of lipid-lowering drug at index,current lipid lowering therapy at index,medicine,DP_LIPIDLOWERING,medicines_codelists,IN_CODEMAPPER
+case3,table 6,9,,Hypertension,Diagnosis of hypertension,hypertension,event,V_HYPERTENSION_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 6,10,,Antihypertensive medication,Active prescription at index date,antihypertensive therapy,medicine,DP_ANTIHYPERTENSIVE,medicines_codelists,IN_CODEMAPPER
+case3,table 6,11,,Tobacco use,Recorded tobacco use in past year or current use,current smoker,event,L_CURRENTSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 7,1,1,SGLT2 Inhibitor Use,Any prescription for an SGLT2 inhibitor within the 365 days before index date,SGLT2i use,medicine,DP_SGLT2I,medicines_codelists,IN_CODEMAPPER
+case3,table 7,2,1,DPP-4 Inhibitor Use,Any prescription for a DPP-4 inhibitor within the 365 days before index date,DDP4 inhibitors,medicine,DP_DDP4I,medicines_codelists,IN_CODEMAPPER
+case3,table 7,3,1,Acute Cardiovascular Event,"Diagnosis of acute CV event (e.g., MI, unstable angina, stroke) in the year prior to index",myocardial infarction,event,C_AMI_AESI,diagnosis_codelist,IN_CODEMAPPER
+case3,table 7,3,2,Acute Cardiovascular Event,"Diagnosis of acute CV event (e.g., MI, unstable angina, stroke) in the year prior to index",unstable angina,event,C_UNSTANGINA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case3,table 7,3,3,Acute Cardiovascular Event,"Diagnosis of acute CV event (e.g., MI, unstable angina, stroke) in the year prior to index",stroke,event,N_STROKE_AESI,diagnosis_codelist,IN_CODEMAPPER
+case3,table 7,4,1,Type 1 Diabetes,Diagnosis of type 1 diabetes at any point before index,type 1 diabetes,event,E_T1DM_COV,diagnosis_codelist,IN_CODEMAPPER
+case3,table 8,1,,Exposure,SGLT2-i,dapagliflozin,medicine,DP_DAPAGLIFLOZIN,medicines_codelists,IN_CODEMAPPER
+case3,table 8,2,,Comparator,DPP4-i,DDP4 inhibitors,medicine,DP_DDP4I,medicines_codelists,IN_CODEMAPPER
+case3,table 9,1,1,MACE (Composite outcome of AC Mortality/MI/Stroke),"Composite of all-cause mortality, myocardial infarction, and stroke",MACE,multiple_ingredients,MACE_AESI,,
+case3,table 9,2,,Myocardial infarction,Non-fatal myocardial infarction identified from hospital discharge diagnoses. Hospitalization can also be recorded in Primary care records.,myocardial infarction,event,C_AMI_AESI,diagnosis_codelist,IN_CODEMAPPER
+case3,table 9,3,,Stroke,Non-fatal ischemic stroke identified from hospital discharge diagnoses. Hospitalization can also be recorded in Primary care records.,stroke,event,N_STROKE_AESI,diagnosis_codelist,IN_CODEMAPPER
+case3,table 9,4,,All-cause mortality,"Death from any cause, as recorded in mortality registry",Death from any cause,no_ingredients,,,
+case4,table 3,1,,Intervention cohort: rivaroxaban,Date of incident prescription for RIV,rivaroxaban,medicine,DP_RIVAROXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 3,2,,Control cohort:,Date of incident prescription for APX,apixaban,medicine,DP_APIXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 4,1,,Initiation of treatment,First of RIV or APX,,no_ingredients,,,
+case4,table 4,2,,Age ≥75yrs,Age >=75 years (year of index date- year of birth),age,no_ingredients,,,
+case4,table 4,3,,AF diagnosis,Diagnosis of AF,atrial fribrilation,event,C_AF_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 5,1,,Exposure,Rivaroxaban,rivaroxaban,medicine,DP_RIVAROXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 5,1,,Less than 365 days of history in data source,Assess whether there are at least 365 days of data availability prior to the index date,age,no_ingredients,,,
+case4,table 5,2,1,Valvular Atrial fibrillation,Diagnosis of valvular atrial fibrillation any time before the index date,atrial fribrilation,multiple_ingredients,C_AF_COV,diagnosis codelist,IN_CODEMAPPER
+case4,table 5,2,2,Valvular Atrial fibrillation,Diagnosis of valvular atrial fibrillation any time before the index date,valvular disorders,multiple_ingredients,C_VALVEDISORDER_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case4,table 5,2,,Comparator,Apixaban,apixaban,medicine,DP_APIXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 5,3,,History of DOAC/VKA use,Any prescription for any DOAC or VKA in the year before the index date,DOAC,medicine,DP_VKA,medicines_codelists,IN_CODEMAPPER
+case4,table 5,3,,History of DOAC/VKA use,Any prescription for any DOAC or VKA in the year before the index date,VKA,medicine,DP_VKA,medicines_codelists,IN_CODEMAPPER
+case4,table 6,1,,Exposure,Rivaroxaban,rivaroxaban,medicine,DP_RIVAROXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 6,2,,Comparator,Apixaban,apixaban,medicine,DP_APIXABAN,medicines_codelists,IN_CODEMAPPER
+case4,table 7,1,,Major GI bleeding,Diagnosis of a major GI bleeding identified through hospital admissions or primary care records or death records,major GI bleeding,event,D_MAJORGIBLEED_AESI,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,1,,Age at index date,,age,no_ingredients,,,
+case4,table 9,2,,Gender,,sex,no_ingredients,,,
+case4,table 9,3,,Cancer GI tract,,cancer GI tract,event,ONC_GICANCER_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,4,,History of GIB,,history of GI bleeding,event,D_GIBLEED_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,5,,History stof GIB in year before cohort entry,,history of GI bleeding,event,D_GIBLEED_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,6,,Peptic ulcer disease,365 days prior index,peptic ulcer disease,event,D_PEPTICULCER_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,7,,Inflammatory bowel disease,any time prior,Inflammatory bowel disease,event,D_IBS_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,8,,Gastroesophageal reflux disease (GERD),any time prior,gastroesophageal reflux disease (GERD),event,D_GERD_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,9,,gastritis/esophagitis,any time prior,gastritis/esophagitis,event,D_GASTRITISESOPHAGITIS_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,10,,Oesophageal varices,any time prior,oesophageal varices,event,D_OESOPHAGEALVARICES_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,11,,Chronic Kidney Disease stage 1-3,any time prior,chronic kidney disease stage 1-3,event,G_CKDST123_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,12,,Chronic Kidney Disease Stage 4-5,any time prior,chronic kidney disease stage 4-5,event,G_CKDST45_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case4,table 9,12,,Hypertension,any time prior,hypertension,event,V_HYPERTENSION_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,13,,Chronic liver disease,any time prior,Chronic liver disease,event,D_CHRLIVERDISEASE_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,14,,COPD,any time prior,COPD,event,R_COPD_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,15,,Alcohol abuse,any time prior,alcohol use disorders,event,L_ALCOHOLDISORDERS_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,16,,Corticosteroids,182 days prior index,corticosteroids,medicine,DP_CORTICOSTEROID,medicines_codelists,IN_CODEMAPPER
+case4,table 9,17,,NSAIDs,182 days prior index,NSAIDs,medicine,DP_NSAID,medicines_codelists,IN_CODEMAPPER
+case4,table 9,18,,SSRIs,182 days prior index,SSRIs,medicine,DP_SSRI,medicines_codelists,IN_CODEMAPPER
+case4,table 9,19,,PPIs,182 days prior index,PPIs,medicine,DP_PPI,medicines_codelists,IN_CODEMAPPER
+case4,table 9,20,,Antiplatelet drugs,182 days prior index,antiplatelet drugs,medicine,DP_ANTIPLATELET,medicines_codelists,IN_CODEMAPPER
+case4,table 9,21,1,Smoking,365 days prior index,current smoker,event,L_CURRENTSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,21,2,Smoking,365 days prior index,ex_smoker,event,L_EXSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,21,3,Smoking,365 days prior index,never smoked,event,L_NEVERSMOKED_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,21,4,Smoking,365 days prior index,non smoker,event,L_NONSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case4,table 9,22,,BMI,365 days prior index,BMI,no_ingredients,,,
+case5,covariate text,,,SAMA,,,medicine,DP_SAMA,medicines_codelists,IN_CODEMAPPER
+case5,covariate text,,,LAMA,,,medicine,DP_LAMA,medicines_codelists,IN_CODEMAPPER
+case5,table 3,1,,Exposure: single-device V+FF,Date of incident prescription/ dispensation for V+FF (time 0),vilanterol + fluticasone furoate,medicine,DP_VFF,medicines_codelists,IN_CODEMAPPER
+case5,table 3,2,,Comparator: other single-device ICS+LABA,Date of incident prescription/ dispensation for ICS+LABA (time 0),inhaled corticosteroid + long-acting beta-2 adrenoceptor agonist,medicine,DP_ICSLABA,medicines_codelists,IN_CODEMAPPER
+case5,table 4,1,,At least one dispensation or written prescription of V+FF or other single-device ICS+LABA,,,multiple_ingredients,DP_VFF,medicine codelist,IN_CODEMAPPER
+case5,table 4,1,,At least one dispensation or written prescription of V+FF or other single-device ICS+LABA,,,multiple_ingredients,DP_ICSLABA,medicine codelist,IN_CODEMAPPER
+case5,table 4,2,,Observable time,Continuous residence/ registration in database,,no_ingredients,,,
+case5,table 4,3,,Age 12-17 yrs,,,no_ingredients,,,
+case5,table 4,4,,Asthma diagnosis,Based on diagnostic and special reimbursement codes,asthma,event,R_ASTHMA_COV,diagnosis_codelist,IN_CODEMAPPER
+case5,table 4,5,,ICS treatment,Based on record of prescription and/or dispensing,inhaled corticosteroid,medicine,DP_ICS,medicines_codelists,IN_CODEMAPPER
+case5,table 5,1,,Previous pneumonia,Based on diagnostic codes,overnight hospitalization,event,R_PNEUMONIA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case5,table 5,2,,Overnight hospitalisation,Based on recorded hospital stay,pneumonia,event,HOSP,itemset,
+case5,table 7,1,,Pneumonia,Diagnosis  date from primary or secondary healthcare. In estimand 3 death date from causes of death register is used in addition to diagnosis date.,pneumonia,event,R_PNEUMONIA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case5,table 9,1,,Age,(cohort entry date - date of birth) in years. Accuracy for DOB varies between databases (year/month/exact date),,no_ingredients,,,
+case5,table 9,2,,Sex,"men, women",,no_ingredients,,,
+case5,table 9,3,,Calendar year,,,no_ingredients,,,
+case5,table 9,4,,Season,month or as 4 categories,,no_ingredients,,,
+case5,table 9,5,,number of primary care visits,,,other,OUTPATIENT_VISIT,itemset,
+case5,table 9,6,,Number of hospital days,,,other,HOSP,itemset,
+case5,table 9,7,,diabetes,,diabetes mellitus,multiple_ingredients,E_DM_COV,diagnosis codelist,IN_CODEMAPPER
+case5,table 9,7,,diabetes,,diabetes mellitus,multiple_ingredients,DP_DIABETES,medicine codelist,
+case5,table 9,8,,rheumatological diseases,,,event,IM_RHEUM_COV,diagnosis_codelist,IN_CODEMAPPER
+case5,table 9,9,,malignancies,,malignancies,event,ONC_MALIGNANCIES_COV,diagnosis_codelist,
+case5,table 9,10,,other immunological conditions,,,event,IM_IMMUNE_COV,diagnosis_codelist,IN_CODEMAPPER
+case5,table 9,11,,cardiovascular diseases,,,multiple_ingredients,V_CVD_COV,diagnosis codelist,IN_CODEMAPPER
+case5,table 9,11,,cardiovascular diseases,,,multiple_ingredients,DP_CARDIOVASCULAR,medicine codelist,
+case5,table 9,12,,intellectual disability ,,intellectual disability ,event,MENT_INTELLECTUALDISABILITY_COV,diagnosis_codelist,IN_CODEMAPPER
+case5,table 9,13,,congenital malformations,,congenital respiratory malforma,event,R_CONGRESPMALF_COV,diagnosis_codelist,IN_CODEMAPPER
+case5,table 9,14,,psychotropic drugs,,psychotropic drugs,medicine,DP_PSYCHOTROPIC,medicines_codelists,IN_CODEMAPPER
+case5,table 9,15,,Asthma exacerbations,Number of asthma-related overnight hospitalisations,,multiple_ingredients,HOSP,itemset,
+case5,table 9,15,,Asthma exacerbations,Number of asthma-related overnight hospitalisations,,multiple_ingredients,R_ASTHMA_COV,diagnosis codelist,IN_CODEMAPPER
+case5,table 9,16,,oral corticosteroids,,corticosteroids,medicine,DP_CORTICOSTEROID,medicines_codelists,IN_CODEMAPPER
+case5,table 9,17,,biologicals,,biologicals,medicine,DP_BIOLOGICAL,medicines_codelists,IN_CODEMAPPER
+case5,table 9,18,,SABA,,SABA,medicine,DP_SABA,medicines_codelists,IN_CODEMAPPER
+case5,table 9,19,,Inhaled corticosteroids (dose),,,medicine,DP_ICS,medicines_codelists,IN_CODEMAPPER
+case5,table 9,20,,leukotriene receptor antagonists,,,medicine,DP_LEUCOTRIENEANTA,medicines_codelists,IN_CODEMAPPER
+case5,table 9,21,,antibiotic use,,,medicine,DP_ANTIBIOTICRESP,medicines_codelists,IN_CODEMAPPER
+case5,table 9,22,,pneumococcal vaccination,,,vaccine,DP_PNEUMOCOCCAL,medicine codelist,IN_CODEMAPPER
+case5,table 9,23,,influenza vaccination,,,vaccine,DP_INFLUENZA,medicine codelist,IN_CODEMAPPER
+case6,table 11,1,,Age,,age,no_ingredients,,,
+case6,table 11,2,,Sex,,sex,no_ingredients,,,
+case6,table 11,3,1,Smoking status,,current smoker,event,L_CURRENTSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,3,2,Smoking status,,ex_smoker,event,L_EXSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,3,3,Smoking status,,never smoked,event,L_NEVERSMOKED_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,3,4,Smoking status,,non smoker,event,L_NONSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,4,,History of diabetes,,diabetes mellitus,event,E_DM_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,5,,DPP-4 inhibitors,,DPP4 inhibitors,medicine,DP_DPP4I,medicines_codelists,IN_CODEMAPPER
+case6,table 11,6,,History of ACEI-associated cough,,ACE inhibitors,multiple_ingredients,DP_ACEI,medicines_codelists,IN_CODEMAPPER
+case6,table 11,6,,History of ACEI-associated cough,cough related to ACEI,ACEI cough,multiple_ingredients,R_ACEICOUGH_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,7,,History of heart or renal transplant,,heart transplant,event,TP_HEARTTRANSPLANT_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case6,table 11,7,,History of heart or renal transplant,,renal transplant,event,TP_RENALTRANSPLANT_COV,diagnosis_and_procedure_codelist,IN_CODEMAPPER
+case6,table 11,8,,Seasonal allergies,,seasonal alergies,event,IM_SEASONALALLERGY_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,9,,COPD,,COPD,event,R_COPD_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,10,,Antihistamines,,antihistamines,medicine,DP_ANITIHISTAMINE,medicines_codelists,IN_CODEMAPPER
+case6,table 11,11,,Corticosteroids,,corticosteroids,medicine,DP_CORTICOSTEROID,medicines_codelists,IN_CODEMAPPER
+case6,table 11,12,,CCBs,,calcium channel blockers,medicine,DP_CCB,medicines_codelists,IN_CODEMAPPER
+case6,table 11,13,,Localized tissue trauma,,localised tissue trauma,event,M_LOCALTISSUETRAUMA_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,14,,Lymphoproliferative or autoimmune diseases,,autoimmune diseases,multiple_ingredients,IM_AUTOIMMUNE_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,14,,Lymphoproliferative or autoimmune diseases,,lymphoproliferative diseases,multiple_ingredients,IM_LYMPHOPROLIF_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,15,,estrogen-containing oral contraceptives or estrogen replacement therapy,,estrogen-containing oral contraceptives or estrogen replacement therapy,medicine,DP_ESTROGENCONTRACEPTIVE,medicines_codelists,IN_CODEMAPPER
+case6,table 11,16,,Infections,,infections,event,I_INFECTION_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 11,17,,"NSAIDs, acetylsalicylic acid",,aspirin,multiple_ingredients,DP_ASPIRIN,medicines_codelists,IN_CODEMAPPER
+case6,table 11,17,,"NSAIDs, acetylsalicylic acid",,NSAIDs,multiple_ingredients,DP_NSAID,medicines_codelists,IN_CODEMAPPER
+case6,table 5,1,,"Intervention cohort: Sacubitril/
+valsartan",First prescription of SV,sacubitril/valsartan,medicine,DP_SACUBITRILVALSARTAN,medicines_codelists,IN_CODEMAPPER
+case6,table 5,2,,Control cohort: ACEIs,Matching ACEI prescription,ACE inhibitors,medicine,DP_ACEI,medicines_codelists,IN_CODEMAPPER
+case6,table 6,1,,Age ≥18 yrs,,,no_ingredients,,,
+case6,table 6,2,,HF diagnosis,,heart failure,event,C_HF_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 6,3,,Observable time,,,no_ingredients,,,
+case6,table 7,1,,Prior history of angioedema,"Includes drug-induced angioedema, hereditary and idiopathic angioedema",angioedema,event,IM_ANGIOEDEMA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,2,,Overlapping prescriptions for ACEIs and ARBs,,ACE inhibitors,multiple_ingredients,DP_ACEI,medicines_codelists,IN_CODEMAPPER
+case6,table 7,2,,Overlapping prescriptions for ACEIs and ARBs,,ARBs,multiple_ingredients,DP_ARB,medicines_codelists,IN_CODEMAPPER
+case6,table 7,3,,Hospitalization for chronic heart failure,hospitalisation due to 7 days before index date,heart failure,event,C_HF_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,4,,Diagnosis of peripartum cardiomyopathy or cardiomyopathy induced by external agents,1 year before index,cardiomyopathy induced by external agents,event,C_CARDIOMYOPATHEXT_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,4,,Diagnosis of peripartum cardiomyopathy or cardiomyopathy induced by external agents,1 year before index,peripartum cardiopathy,event,C_CARDIOMYOPATHPERIPARTUM_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,5,,History of severe hepatic impairment,,severe hepatic impairement,event,D_SEVHEPATICIMPAIRMENT_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,6,,Hyperkalaemia,hyperkalaemia 30 days before index,hyperkalemia,event,O_HYPERKALAEMIA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case6,table 7,7,,Hypotension,30 days before,hypotension,event,V_HYPOTENSION_COV,diagnosis_codelist,IN_CODEMAPPER
+case6,table 8,1,,Angioedema,,angioedema,event,IM_ANGIOEDEMA_AESI,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,1,,Age at diagnosis,"Date of diagnosis, date of birth",age,no_ingredients,,,
+case9,table 10,2,,Sex,"Male, female, other",sex,no_ingredients,,,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",5-NT,multiple_ingredients,LAB_5NT,procedure_codelist,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",alkaline phosphatase,multiple_ingredients,LAB_ALP,procedure_codelist,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",ALT,multiple_ingredients,LAB_ALT,procedure_codelist,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",AST,multiple_ingredients,LAB_AST,procedure_codelist,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",GGT,multiple_ingredients,LAB_GGT,procedure_codelist,
+case9,table 10,3,,Baseline liver function,"AST, ALT, total bilirubin, alkaline phosphatase, gamma-glutamyl transpeptidase, 5'nucleotidase",total bilirubin,multiple_ingredients,LAB_BILIRUBIN,procedure_codelist,
+case9,table 10,4,,Alcohol use disorders,Most recent known status,alcohol use disorders,event,L_ALCOHOLDISORDERS_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,5,1,Smoking status,Most recent known status,current smoker,event,L_CURRENTSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,5,2,Smoking status,Most recent known status,ex_smoker,event,L_EXSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,5,3,Smoking status,Most recent known status,never smoked,event,L_NEVERSMOKED_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,5,4,Smoking status,Most recent known status,non smoker,event,L_NONSMOKER_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,6,,Comorbidity: liver disease,"Any liver disease, disorder, or injury",liver disease,event,D_LIVERDISEASE_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,7,,Comorbidity: hypertension,,hypertension,event,V_HYPERTENSION_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 10,8,,Baseline creatinine clearance,Creatinine clearance in ml/min,creatinine clearance,other,,itemset,
+case9,table 4,1,,Intervention: tolvaptan use,First prescription of tolvaptan,tolvaptan,medicine,DP_TOLVAPTAN,medicines_codelists,
+case9,table 4,2,,Comparator,Time-matched time of diagnosis until time of physician visit without tolvaptan prescription,,other,,,
+case9,table 5,1,,ADPKD diagnosis,Any recorded ADPKD diagnosis,autosomal dominant polycystic kidney disease,event,G_ADPKD_COV,diagnosis_codelist,IN_CODEMAPPER
+case9,table 5,2,,At least 18 years old,At time 0,age,no_ingredients,,,
+case9,table 6,1,,Use of medication with hepatotoxic effects,A current prescription of any medication known for potentially causing hepatotoxic effects,hepatotoxic drugs,medicine,DP_HEPATOTOX,medicines_codelists,
+case9,table 6,1,,Exposure,Tolvaptan,tolvaptan,medicine,DP_TOLVAPTAN,medicines_codelists,
+case9,table 6,2,,Hepatotoxicity,"Diagnosis of hepatotoxicity identified by a relevant ICD-10, Read, or SNOMED code",hepatotoxicity,event,D_HEPATOTOX_AESI,diagnosis_codelist,IN_CODEMAPPER
+case9,table 6,2,,Comparator,Non tolvaptan users,,other,,,
+case9,table 6,3,,AST or ALT elevation,AST or ALT levels > 1.5 times ULN,ALT,multiple_ingredients,LAB_ALT,procedure_codelist,
+case9,table 6,3,,AST or ALT elevation,AST or ALT levels > 1.5 times ULN,AST,multiple_ingredients,LAB_AST,procedure_codelist,
+case9,table 6,4,,"Total bilirubin,alkaline phosphatase, GGT, 5-NT elevation","Total bilirubin, alkaline phosphatase, GGT, 5-NT levels higher than ULN",5-NT,multiple_ingredients,LAB_5NT,procedure_codelist,
+case9,table 6,4,,"Total bilirubin,alkaline phosphatase, GGT, 5-NT elevation","Total bilirubin, alkaline phosphatase, GGT, 5-NT levels higher than ULN",alkaline phosphatase,multiple_ingredients,LAB_ALP,procedure_codelist,
+case9,table 6,4,,"Total bilirubin,alkaline phosphatase, GGT, 5-NT elevation","Total bilirubin, alkaline phosphatase, GGT, 5-NT levels higher than ULN",GGT,multiple_ingredients,LAB_GGT,procedure_codelist,
+case9,table 6,4,,"Total bilirubin,alkaline phosphatase, GGT, 5-NT elevation","Total bilirubin, alkaline phosphatase, GGT, 5-NT levels higher than ULN",total bilirubin,multiple_ingredients,LAB_BILIRUBIN,procedure_codelist,
+case9,table 6,5,,Use of diuretics,A current prescription of any diuretic,diuretics,medicine,DP_DIUR,medicines_codelists,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",hepatotoxicity,event,D_HEPATOTOX_AESI,diagnosis_codelist,IN_CODEMAPPER
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",5-NT,multiple_ingredients,LAB_5NT,procedure_codelist,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",alkaline phosphatase,multiple_ingredients,LAB_ALP,procedure_codelist,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",ALT,multiple_ingredients,LAB_ALT,procedure_codelist,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",AST,multiple_ingredients,LAB_AST,procedure_codelist,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",GGT,multiple_ingredients,LAB_GGT,procedure_codelist,
+case9,table 8,1,,Hepatotoxicity,"Composite: ICD-10, Read, or SNOMED, ALS or AST > 3x ULN, total bilirubin or alkaline phosphatase > 2x ULN + elevated GGT and/or 5-NT",total bilirubin,multiple_ingredients,LAB_BILIRUBIN,procedure_codelist,

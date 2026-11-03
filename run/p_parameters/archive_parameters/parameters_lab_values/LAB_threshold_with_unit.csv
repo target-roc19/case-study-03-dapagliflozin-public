@@ -1,0 +1,4 @@
+concept_id;Min;Max;unit_target;condition_on_variable;variable
+LAB_HBA1C;9;174;mmol/mol;;
+LAB_CREATININE_SERUM;0.1;10;mg/dl;;
+LAB_EGFR;0;200;mL/min/1.73m2;;

@@ -1,0 +1,68 @@
+row_header,_CPRD_PC_HOSP_exposed_BF,_CPRD_PC_HOSP_comparators_BF,_CPRD_PC_HOSP_asd_BF,_CPRD_PC_HOSP_exposed_AF,_CPRD_PC_HOSP_comparators_AF,_CPRD_PC_HOSP_asd_AF
+Datasource,CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data
+"",Exposed,Comparators,Absolute Standardised Difference,Exposed,Comparators,Absolute Standardised Difference
+N,45,133,,35.2,127,
+Demographics,"","","","","",""
+Age (years),"","","","","",""
+< 65,32 (71.1%),91 (68.4%),0.1,24.1 (68.5%),88.6 (69.8%),0.1
+65-74,8 (17.8%),18 (13.5%),,3.6 (10.2%),16.1 (12.7%),
+75-84,< 5 (%),13 (9.8%),,4.2 (11.9%),10.8 (8.5%),
+85+,< 5 (%),11 (8.3%),,3.4 (9.7%),11.5 (9.1%),
+Gender N (%),"","","","","",""
+Male,26 (57.8%),77 (57.9%),0,24.9 (70.7%),74 (58.3%),0.2
+Female,19 (42.2%),53 (39.8%),,10.3 (29.3%),50.8 (40%),
+Other,0 (0%),< 5 (%),,0 (0%),2.3 (1.8%),
+Comorbidities N (%),"","","","","",""
+Chronic Kidney Disease N (%),"","","","","",""
+Stage 1-4,< 5 (%),27 (20.3%),0.2,10.9 (31%),24.9 (19.6%),0.2
+Stage 5,11 (24.4%),28 (21.1%),,4.4 (12.5%),24.2 (19.1%),
+Obesity,6 (13.3%),6 (4.5%),0.3,2.1 (6%),9.5 (7.5%),0.1
+Heart transplant,35 (77.8%),102 (76.7%),0,31 (88.1%),100.7 (79.3%),0.2
+Microvascular complications,18 (40%),25 (18.8%),0.5,7.9 (22.4%),24.7 (19.4%),0.1
+Severe hypoglycaemia,0 (0%),0 (0%),NaN,0 (0%),0 (0%),NaN
+Diabetic neuropathy,17 (37.8%),41 (30.8%),0.1,9.9 (28.1%),38.4 (30.2%),0
+Diabetic Retinopathy,38 (84.4%),122 (91.7%),0.2,32.5 (92.3%),113.6 (89.4%),0.1
+Keto-/lactate acidosis,5 (11.1%),23 (17.3%),0.2,1.6 (4.5%),18.2 (14.3%),0.3
+Lower limb amputations,19 (42.2%),53 (39.8%),0,18 (51.1%),52.8 (41.6%),0.2
+COPD,18 (40%),39 (29.3%),0.2,13.9 (39.5%),40.2 (31.7%),0.2
+Cancer,24 (53.3%),56 (42.1%),0.2,17 (48.3%),57.1 (45%),0.1
+Major organ specific bleeding,15 (33.3%),22 (16.5%),0.4,6.7 (19%),24.5 (19.3%),0
+Bariatric surgery,10 (22.2%),24 (18%),0.1,5.2 (14.8%),22 (17.3%),0.1
+Kidney Transplantation,19 (42.2%),48 (36.1%),0.1,19.8 (56.2%),48.1 (37.9%),0.4
+Dialysis,9 (20%),14 (10.5%),0.3,3.7 (10.5%),14.5 (11.4%),0
+Comedications N (%),"","","","","",""
+Metformin,0 (0%),< 5 (%),0.2,0 (0%),1.5 (1.2%),0.2
+Sulfonylurea,< 5 (%),17 (12.8%),0.1,2.8 (8%),15.1 (11.9%),0.1
+Sulfonamides,6 (13.3%),20 (15%),0,2.8 (8%),16.8 (13.2%),0.2
+Alfa glucosidase inhibitors,< 5 (%),< 5 (%),0.3,0.5 (1.4%),0.8 (0.6%),0.1
+Thiazolidinediones,15 (33.3%),26 (19.5%),0.3,6.9 (19.6%),29.3 (23.1%),0.1
+Other GLDs,6 (13.3%),15 (11.3%),0.1,2 (5.7%),12.7 (10%),0.2
+Insulin,< 5 (%),0 (0%),0.2,0.2 (0.6%),0 (0%),0.1
+ACE inhibitors,< 5 (%),< 5 (%),0,1 (2.8%),3.5 (2.8%),0
+ARBs,5 (11.1%),12 (9%),0.1,7.7 (21.9%),15.2 (12%),0.3
+Beta-blockers,10 (22.2%),30 (22.6%),0,3.8 (10.8%),25 (19.7%),0.3
+Low/high ceiling diuretics,< 5 (%),0 (0%),0.2,0.2 (0.6%),0 (0%),0.1
+Aldosterone antagonists,12 (26.7%),29 (21.8%),0.1,8.9 (25.3%),28 (22%),0.1
+Thiazide diuretics,10 (22.2%),22 (16.5%),0.1,5.1 (14.5%),20.2 (15.9%),0
+Calcium channel blockers,7 (15.6%),22 (16.5%),0,2.6 (7.4%),18.2 (14.3%),0.2
+Digitoxin/digoxin,< 5 (%),11 (8.3%),0.1,4.7 (13.4%),9.3 (7.3%),0.2
+Antiarrhythmics,< 5 (%),< 5 (%),0.4,0.7 (2%),0.8 (0.6%),0.1
+Statins,< 5 (%),17 (12.8%),0.3,0.8 (2.3%),13.3 (10.5%),0.3
+Warfarin,9 (20%),25 (18.8%),0,4.6 (13.1%),25.1 (19.8%),0.2
+Aspirin,8 (17.8%),17 (12.8%),0.1,4.8 (13.6%),19.2 (15.1%),0
+Purinergic receptor P2Y_12 antagonists,13 (28.9%),24 (18%),0.3,5.3 (15.1%),25.1 (19.8%),0.1
+Other antiplatelets,< 5 (%),7 (5.3%),0.2,2 (5.7%),6.2 (4.9%),0
+Corticosteroids,< 5 (%),11 (8.3%),0.1,2.4 (6.8%),10.9 (8.6%),0.1
+Weight loss drugs,9 (20%),25 (18.8%),0,6 (17%),22.6 (17.8%),0
+Lifestyle N (%),"","","","","",""
+Tobacco use with missing imputed as 'none',"","","","","",""
+None,45 (100%),133 (100%),NaN,35.2 (100%),127 (100%),NaN
+Past,0 (0%),0 (0%),,0 (0%),0 (0%),
+Current,0 (0%),0 (0%),,0 (0%),0 (0%),
+Established ACVD,"","","","","",""
+Ischemic heart disease,0 (0%),0 (0%),NaN,0 (0%),0 (0%),NaN
+Ischemic cerebrovascular disease,15 (33.3%),24 (18%),0.4,6.3 (17.9%),25.5 (20.1%),0.1
+ACVD Risk factors,"","","","","",""
+Peripheral arterial disease,14 (31.1%),23 (17.3%),0.3,6.1 (17.3%),24.7 (19.4%),0.1
+Dyslipidaemia,7 (15.6%),8 (6%),0.3,2.5 (7.1%),11.2 (8.8%),0.1
+Hypertension,< 5 (%),8 (6%),0,0.9 (2.6%),6.6 (5.2%),0.1

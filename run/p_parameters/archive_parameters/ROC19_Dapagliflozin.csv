@@ -1,0 +1,5 @@
+event_definition,coding_system,code,code_name,concept,concept_name,tags,origin,system,event_abbreviation,type
+dapagliflozin,ATC,A10BD31,"metformin, sitagliptin and dapagliflozin",C0000000,Unassociated custom codes,possible,,DP,DAPAGLIFLOZIN,
+dapagliflozin,ATC,A10BK01,dapagliflozin,C2353951,dapagliflozin,narrow,,DP,DAPAGLIFLOZIN,
+dapagliflozin,ATC,A10BD25,"metformin, saxagliptin and dapagliflozin",C4759134,dapagliflozin / metformin / saxagliptin,possible,,DP,DAPAGLIFLOZIN,
+dapagliflozin,ATC,A10BD15,metformin and dapagliflozin,C3700400,dapagliflozin / metformin,possible,,DP,DAPAGLIFLOZIN,

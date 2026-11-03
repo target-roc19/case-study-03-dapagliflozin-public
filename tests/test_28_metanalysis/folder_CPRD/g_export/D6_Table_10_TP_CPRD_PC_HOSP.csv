@@ -1,0 +1,5 @@
+Scenario,Rivaroxaban,Apixaban,Interpretation,Hazard Ratio,95% CI
+1,Best case (lowest event rate),Worst case (highest event rate),Maximally favours intervention,"",
+2,Worst case (highest event rate),Best case (lowest event rate),Maximally favours control,"",
+3,Best case,Best case,Optimistic for both groups,"",
+4,Worst case,Worst case,Pessimistic for both groups,"",

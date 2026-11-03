@@ -1,0 +1,69 @@
+CPRD with linked HES data_comparators,CPRD with linked HES data_exposed,CPRD with linked HES data_or,row_header
+CPRD with linked HES data,CPRD with linked HES data,CPRD with linked HES data,Datasource
+Comparators,Exposed,OR,""
+133,45,,N
+"","","",Demographics
+"","","",Age (years) N (%)
+91 (68.4%),32 (71.1%),,< 65
+18 (13.5%),8 (17.8%),0.282 (0.045 - 1.417),65-74
+13 (9.8%),< 5 (%),0.522 (0.019 - 4.853),75-84
+11 (8.3%),< 5 (%),2.603 (0.347 - 18.016),85+
+"","","",Gender N (%)
+77 (57.9%),26 (57.8%),0.469 (0.124 - 1.664),Male
+53 (39.8%),19 (42.2%),,Female
+< 5 (%),0 (0%),0 (0 - 7.67413206207535e+63),Other
+"","","",Comorbidities N (%)
+"","","",Chronic Kidney Disease N (%)
+78 (58.6%),30 (66.7%),,Stage 0
+27 (20.3%),< 5 (%),0.575 (0.093 - 2.996),Stage 1-4
+28 (21.1%),11 (24.4%),0.625 (0.138 - 2.539),Stage 5
+6 (4.5%),6 (13.3%),42.937 (3.699 - 751.258),Obesity
+102 (76.7%),35 (77.8%),1.51 (0.39 - 6.684),Heart transplant
+25 (18.8%),18 (40%),11.435 (2.998 - 52.874),Microvascular complications
+0 (0%),0 (0%),,Severe hypoglycaemia
+41 (30.8%),17 (37.8%),1.538 (0.473 - 5.044),Diabetic neuropathy
+122 (91.7%),38 (84.4%),0.816 (0.12 - 6.387),Diabetic Retinopathy
+23 (17.3%),5 (11.1%),0.071 (0.006 - 0.532),Keto-/lactate acidosis
+53 (39.8%),19 (42.2%),1.082 (0.312 - 3.709),Lower limb amputations
+39 (29.3%),18 (40%),3.201 (0.945 - 12.076),COPD
+56 (42.1%),24 (53.3%),2.568 (0.824 - 8.589),Cancer
+22 (16.5%),15 (33.3%),10.475 (2.141 - 64.441),Major organ specific bleeding
+24 (18%),10 (22.2%),1.549 (0.335 - 7.113),Bariatric surgery
+48 (36.1%),19 (42.2%),2.898 (0.843 - 10.632),Kidney Transplantation
+14 (10.5%),9 (20%),2.06 (0.365 - 12.169),Dialysis
+"","","",Comedications N (%)
+< 5 (%),0 (0%),0 ( - 9.94243414978948e+212),Metformin
+17 (12.8%),< 5 (%),0.085 (0.007 - 0.67),Sulfonylurea
+20 (15%),6 (13.3%),1.606 (0.214 - 9.45),Sulfonamides
+< 5 (%),< 5 (%),614.945 (1.138 - 1564855.168),Alfa glucosidase inhibitors
+26 (19.5%),15 (33.3%),9.174 (2.225 - 46.051),Thiazolidinediones
+15 (11.3%),6 (13.3%),2.148 (0.28 - 16.286),Other GLDs
+0 (0%),< 5 (%),2182743392.778 (0 - ),Insulin
+< 5 (%),< 5 (%),1.228 (0.018 - 42.08),ACE inhibitors
+12 (9%),5 (11.1%),0.183 (0.017 - 1.321),ARBs
+30 (22.6%),10 (22.2%),0.492 (0.065 - 2.741),Beta-blockers
+0 (0%),< 5 (%),2423264.273 (0 - ),Low/high ceiling diuretics
+29 (21.8%),12 (26.7%),1.382 (0.288 - 6.469),Aldosterone antagonists
+22 (16.5%),10 (22.2%),0.763 (0.145 - 3.693),Thiazide diuretics
+22 (16.5%),7 (15.6%),0.198 (0.021 - 1.26),Calcium channel blockers
+11 (8.3%),< 5 (%),3.017 (0.18 - 32.408),Digitoxin/digoxin
+< 5 (%),< 5 (%),66072843879114 (0 - Inf),Antiarrhythmics
+17 (12.8%),< 5 (%),0.17 (0.006 - 1.81),Statins
+25 (18.8%),9 (20%),0.248 (0.031 - 1.506),Warfarin
+17 (12.8%),8 (17.8%),1.072 (0.153 - 6.399),Aspirin
+24 (18%),13 (28.9%),0.541 (0.081 - 3.023),Purinergic receptor P2Y_12 antagonists
+7 (5.3%),< 5 (%),1.533 (0.041 - 21.257),Other antiplatelets
+11 (8.3%),< 5 (%),2.563 (0.305 - 19.52),Corticosteroids
+25 (18.8%),9 (20%),0.353 (0.068 - 1.481),Weight loss drugs
+"","","",Lifestyle N (%)
+"","","",Tobacco use with missing imputed as 'none'
+133 (100%),45 (100%),,None
+0 (0%),0 (0%),,Past
+0 (0%),0 (0%),,Current
+"","","",Established ACVD
+0 (0%),0 (0%),,Ischemic heart disease
+24 (18%),15 (33.3%),0 (0 - 5.55296620310804e+30),Ischemic cerebrovascular disease
+"","","",ACVD Risk factors
+23 (17.3%),14 (31.1%),18856984.866 (0 - 1.32356498353174e+253),Peripheral arterial disease
+8 (6%),7 (15.6%),2.688 (0.268 - 27.322),Dyslipidaemia
+8 (6%),< 5 (%),0.069 (0.002 - 1.169),Hypertension

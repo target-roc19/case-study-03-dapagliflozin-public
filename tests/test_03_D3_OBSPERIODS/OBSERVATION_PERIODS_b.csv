@@ -1,0 +1,4 @@
+person_id,op_start_date,op_end_date,op_meaning,op_origin
+P9,1997-11-01,2017-07-19,PC1,
+P10,2014-10-23,2015-08-19,PC2,
+P11,,2017-07-19,PC1,
