@@ -5,79 +5,6 @@
 
 # v3.4.0
 
-# added individual non-administrative censoring in CPRD
-
-# v3.3.0
-# 09 Sep 2026
-# MICE of HbA1c
-
-# v 3.2.0
-
-# 4 Sep 2026
-
-# addressing most comments after Draft Deliverable
-
-
-# v 3.1.0 
-
-# 05 Aug 2026
-
-# fixes
-
-# v 3.0.0 
-
-# 30 Jul 2026
-
-# complete analysis
-
-# v 2.0.0 
-
-# 9 Jul 2026
-
-# v 1.1.0 - 22 Jun 2026
-
-# fixed relevant bug in selection criteria
-# fixed minor bugs
-
-# v 1.0.4 - 17 Jun 2026
-
-# expanded support for parquet instances
-
-# v 1.0.3 - 17 Jun 2026
-
-# handled in 02_parameters_CDM the case when both csv and parquet files are included
-
-# v 1.0.2 - 12 Jun 2026
-
-# added correct itemsets for CPRD
-# added masked diagnostics for clean lab and for prescription management to g_export
-
-# v 1.0.1 - 16 Jun 2026
-
-# fix for BIFAP issue https://github.com/target-roc19/case-study-03-dapagliflozin/issues/69
-
-# v 1.0.0 - 12 Jun 2026
-
-# first release
-
-# v 0.2.4 - 08 Apr 2026
-# Fix for #30, filtering step now converts the date column to filter to an integer
-
-# v 0.2.3 - 07 Apr 2026
-# Fix for #29, CCD now imports all columns as strings
-
-# v 0.2.2 - 02 Apr 2026
-# Fix for #28, CCD now use much less memory
-
-# v 0.2.1 - 26 Mar 2026
-# Fix for #27, METADATA are now stored internally in the repo
-# Updated polars installation
-
-# v 0.2 - 25 Mar 2026
-# Release to reduce CDM instance for BIFAP
-
-# v 0.1 - 18 Mar 2026
-# clean
 
 rm(list=ls(all.names=TRUE))
 
@@ -125,11 +52,6 @@ if (REDUCTION) {
 launch_step("../transformations/01_T2_10_CreateConceptSetDatasets.R")
 
 launch_step("../transformations/01_T2_20_CreateItemSetDatasets.R")
-
-if (thisdatasource == "CPRD") {
-  launch_step("../transformations/01_T2_21_CreateItemSetDatasets_missing_itemset.R")  
-}
-
 
 launch_step("../transformations/02_T2_10_Create_D3_PERSONS.R")
 
@@ -187,7 +109,7 @@ launch_step("../transformations/07_T4_40_Create_D5_Table_3_asd_before_after_trim
 
 launch_step("../transformations/07_T4_50_Create_D5_Table_4_follow_up_time_and_reasons_for_censoring.R")
 
-launch_step("../transformations/07_T4_50_Create_D5_table_S3.R")
+launch_step("../transformations/07_T4_52_Create_D5_table_S3.R")
 
 launch_step("../transformations/07_T4_60_Create_D5_ResultsIR_HR.R")
 

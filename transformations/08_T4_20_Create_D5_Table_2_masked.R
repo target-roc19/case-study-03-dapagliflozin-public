@@ -38,7 +38,7 @@ for (subpop in thissubpopulations) {
   suffix <- fifelse(subpop == "all","",paste0("_",subpop))
   print(suffix)
   
-  table2 <- readRDS(file.path(thisdirinput,paste0("D5_table_2_baseline_cohort",suffix,".rds")))   
+  table2 <- readRDS(file.path(thisdirinput,paste0("D5_Table_2_baseline_cohort",suffix,".rds")))   
 
   #########################################
 
