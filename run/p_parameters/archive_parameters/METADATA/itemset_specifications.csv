@@ -1,7 +1,0 @@
-concept_id,description,ds_name,cdm_table_name,column_name_1,column_name_2,column_name_3,expected_value_1,expected_value_2,expected_value_3
-HOSP,records that contain a hospitalization,FinReg,VISIT_OCCURRENCE,meaning_of_visit,,,hospitalisation,,
-HOSP,records that contain a hospitalization,CPRD_AURUM,VISIT_OCCURRENCE,meaning_of_visit,,,hes_hospital,,
-OUTPATIENT_VISIT,primary care visit (duplicated for back compatibility),FinReg,VISIT_OCCURRENCE,meaning_of_visit,,,primary_care,,
-OUTPATIENT_VISIT,primary care visit,CPRD_AURUM,VISIT_OCCURRENCE,meaning_of_visit,,,primary_care,,
-VISIT_PC,primary care visit,FinReg,VISIT_OCCURRENCE,meaning_of_visit,,,primary_care,,
-VISIT_PC,primary care visit,CPRD_AURUM,VISIT_OCCURRENCE,meaning_of_visit,,,primary_care,,
