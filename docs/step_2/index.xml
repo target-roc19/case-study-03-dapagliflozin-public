@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_index.en on TARGET CS3 Documentation</title>
+    <link>/step_2/index.html</link>
+    <description>Recent content in _index.en on TARGET CS3 Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="/step_2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D3_PERSONS</title>
+      <link>/step_2/d3_persons/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_persons/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_PERSONS&#34;,&#34;contains the cleaned version of PERSONS, where death date is reconstituted as date&#34;,&#34;a person in PERSONS&#34;,&#34;PERSONS&#34;,&#34;a person may be observed only once&#34;,&#34;1&#34;,&#34;person_id&#34;,&#34;person_id&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;fb07242dd0543e34df44849772771201&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;person_id&#34;,&#34;sex_at_instance_creation&#34;,&#34;birth_year&#34;,&#34;death_date&#34;,&#34;missing_birth_year&#34;,&#34;missing_only_death_year&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[&#34;unique person identifier&#34;,&#34;sex at instance creation&#34;</description>
+    </item>
+    <item>
+      <title>D3_OBSPERIODS</title>
+      <link>/step_2/d3_obsperiods/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_obsperiods/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_OBSPERIODS&#34;,&#34;contains the spells all the continuous spells of observation period of each person. in CPRD two versions of this dataset are generate, where the records are stratified per category: category_subpop = PC means that during the period the person is observed in primary care; category_subpop = PC_HOSP means that during the period the person is observed both in primary care and in hospital&#34;</description>
+    </item>
+    <item>
+      <title>output_spells_category_meaning_set</title>
+      <link>/step_2/output_spells_category_meaning_set/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/output_spells_category_meaning_set/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D3_selection_criteria_from_D3_PERSONS_to_D3_ENTRY_FLOWCHART</title>
+      <link>/step_2/d3_selection_criteria_from_d3_persons_to_d3_entry_flowchart/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_selection_criteria_from_d3_persons_to_d3_entry_flowchart/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO​&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_selection_criteria_from_D3_PERSONS_to_D3_ENTRY_FLOWCHART&#34;,&#34;contains the exclusion criteria to go from D3_PERSONS to the persons having at least one potential episode of interest (D3_PERSONS_WITH_BASE_INCLUSION). Specifically we sected all persons from D3_PERSONS who enter the attrition table.</description>
+    </item>
+    <item>
+      <title>D3_ENTRY_FLOWCHART</title>
+      <link>/step_2/d3_entry_flowchart/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_entry_flowchart/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO​&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_ENTRY_FLOWCHART&#34;,&#34;contains the persons complying with the first group of eligibility criteria&#34;,&#34;persons in the instance population who have at least a record of DP_DAPAGLIFLOZIN or DP_DDP4I during the study period, and have other base criteria&#34;</description>
+    </item>
+    <item>
+      <title>D5_DIAGNOSTIC_CLEAN_LAB</title>
+      <link>/step_2/d5_diagnostic_clean_lab/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d5_diagnostic_clean_lab/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_DIAGNOSTIC_CLEAN_LAB&#34;,&#34;Counts of records of laboratory values that exited in specific catagories of the cleaning function CleanLabValues https://github.com/VAC4EU/CleanLabValues&#34;,&#34;concept_id&#39;s of laboratory values found in the datasource&#34;,&#34;LAB_HBA1C\r\nLAB_CREATININE_SERUM\r\nLAB_EGFR\r\n&#34;,&#34;as many as the combinations of include (0/1) conversion (0, 1,2,3) and rule_applied (0, 1,2,90,91,92,99)&#34;</description>
+    </item>
+    <item>
+      <title>D5_DIAGNOSTIC_CLEAN_LAB_masked</title>
+      <link>/step_2/d5_diagnostic_clean_lab_masked/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d5_diagnostic_clean_lab_masked/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_DIAGNOSTIC_CLEAN_LAB_masked&#34;,&#34;Masked counts of records of laboratory values that exited in specific catagories of the cleaning function CleanLabValues https://github.com/VAC4EU/CleanLabValues&#34;,&#34;concept_id&#39;s of laboratory values found in the datasource&#34;,&#34;LAB_HBA1C\r\nLAB_CREATININE_SERUM\r\nLAB_EGFR\r\n&#34;,&#34;as many as the combinations of include (0/1) conversion (0, 1,2,3) and rule_applied (0, 1,2,90,91,92,99)&#34;</description>
+    </item>
+    <item>
+      <title>D3_EGFR</title>
+      <link>/step_2/d3_egfr/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_egfr/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO​&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_EGFR&#34;,&#34;values of EGFR obtaines either directly or from calculation based on creatinine serum&#34;,&#34;persons that enter the flowchart (comply with inclusion criteria)&#34;,&#34;D3_ENTRY_FLOWCHART&#34;,&#34;as many as the the measurements of EGFR and of CREATININE_SERUM of such persons, and inclued in D3_CLEAN_LAB after cleaning (included == 1)&#34;</description>
+    </item>
+    <item>
+      <title>D3_covariate_simple_TD</title>
+      <link>/step_2/d3_covariate_simple_td/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_covariate_simple_td/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D3_covariate_complex_TD</title>
+      <link>/step_2/d3_covariate_complex_td/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_covariate_complex_td/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D3_EPISODES_STUDY_DRUGS</title>
+      <link>/step_2/d3_episodes_study_drugs/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_episodes_study_drugs/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_EPISODES_STUDY_DRUGS&#34;,&#34;episode of treatments with DPP4I or dapagliflozin&#34;,&#34;persons having at least one potential episode of interest: persons with at least one observation period and one record of DPP4I or dapagliflozin in the study period&#34;</description>
+    </item>
+    <item>
+      <title>D5_check_study_drugs_duration</title>
+      <link>/step_2/d5_check_study_drugs_duration/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d5_check_study_drugs_duration/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_check_study_drugs_duration&#34;,&#34;Counts of records with a each documented duration, observed on each medicinal product/ATC&#34;,&#34;medicinal products of exposure and comparator medicines found in MEDICINES&#34;,&#34;itsels&#34;,&#34;as many as the durations observed in the data&#34;</description>
+    </item>
+    <item>
+      <title>D5_check_study_drugs_duration_masked</title>
+      <link>/step_2/d5_check_study_drugs_duration_masked/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d5_check_study_drugs_duration_masked/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_check_study_drugs_duration_masked&#34;,&#34;Counts of records with a each documented duration, observed on each medicinal product/ATC and masked&#34;,&#34;medicinal products of exposure and comparator medicines found in MEDICINES&#34;,&#34;itsels&#34;,&#34;as many as the durations observed in the data&#34;</description>
+    </item>
+    <item>
+      <title>D3_ELIGIBILITY_EPISODE</title>
+      <link>/step_2/d3_eligibility_episode/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_eligibility_episode/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_ELIGIBILITY_EPISODE&#34;,&#34;Attrition Table, calculated at episode level (implementin inclusione criteria 7.3.2 of the study protocol)&#34;,&#34;episodes of treatment with exposure and comparator medicine&#34;,&#34;D3_EPISODES_STUDY_DRUG&#34;,&#34;as many as the episodes starting on the same day (maximum 2: one per exposure and one for comparaor medicine)&#34;</description>
+    </item>
+    <item>
+      <title>D3_ELIGIBILITY</title>
+      <link>/step_2/d3_eligibility/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/d3_eligibility/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D3_ELIGIBILITY&#34;,&#34;Attrition Table, calculated at person level&#34;,&#34;persons that enter the flowchart (comply with inclusion criteria)&#34;,&#34;D3_ENTRY_FLOWCHART&#34;,&#34;1&#34;,&#34;1&#34;,&#34;person_id&#34;,&#34;person_id&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;63c77c34b25c5d879f272d8501e79c94&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;person_id&#34;,&#34;sex_at_instance_creation&#34;,&#34;birth_year&#34;,&#34;death_date&#34;,&#34;entry_spell_category&#34;,&#34;exit_spell_category&#34;,&#34;exposure_episode&#34;,&#34;sel_not_valid_birth_date&#34;,&#34;sel_no_HES_linkage&#34;,&#34;sel_no_spells_in_enrolment_period&#34;,&#34;sel_with_no_episode_in_eligibility_period (sel_no_episode_in_enrolment_period)&#34;,&#34;sel_not_enough_lookback&#34;,&#34;sel_prevalent_dapagliflozin_or_DPP4i&#34;,&#34;T1D_diag&#34;,&#34;sel_T1D_diagnosis&#34;,&#34;sel_no_too_young&#34;,&#34;sel_no_T2D_diagnosis&#34;,&#34;T2D_diag&#34;,&#34;sel_no_ACVD_or_risk_of_ACVD&#34;,&#34;sel_prevalent_SGLT2I_or_DPP4&#34;,&#34;sel_acute_CV_history&#34;,&#34;included&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description from D6&#34;:[null,null,null,null,null,null,null,&#34;N_valid_birth_date&#34;,&#34;N_HES_linkage&#34;,&#34;N_spells_in_enrolment_period&#34;,&#34;N_with_episode_in_eligibility_period&#34;,&#34;N_enough_lookback&#34;,null,null,&#34;N_no_T1D_diagnosis&#34;,&#34;N_too_young&#34;,&#34;N_T2D_diagnosis&#34;,null,&#34;N_ACVD_or_risk_of_ACVD&#34;,&#34;N_no_prevalent_SGLT2I_or_DPP4&#34;,&#34;N_acute_CV_history&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[&#34;person identifier&#34;,&#34;sex as measured in D3_PERSONS at instance creation&#34;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_index.en on TARGET CS3 Documentation</title>
+    <link>/step_7/index.html</link>
+    <description>Recent content in _index.en on TARGET CS3 Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="/step_7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D5_Table_1</title>
+      <link>/step_7/d5_table_1/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_table_1/index.html</guid>
+      <description>MetadataData Model (2)Data ModelParametersExampleShelltable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_Table_1&#34;,&#34;Distribution and overlap of propensity scores by treatment group. A separate graph will be generated for the Finnish and UK database instances. &#34;,&#34;datasource&#34;,&#34;CPRD_PC\r\nCPPD_PC_HOSP\r\nFinReg&#34;,&#34;1&#34;,&#34;1&#34;,&#34;ds&#34;,&#34;ds&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;9c4b0b8784bcf04c9e9113aa21aec908&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;</description>
+    </item>
+    <item>
+      <title>D5_Table_2_baseline_cohort</title>
+      <link>/step_7/d5_table_2_baseline_cohort/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_table_2_baseline_cohort/index.html</guid>
+      <description>MetadataData ModelParametersExampleShellTable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_Table_2_baseline_cohort&#34;,&#34;Table 2. Patient Characteristics&#34;,&#34;columns of the table&#34;,&#34;overall, dapaglifozin, DPP4i&#34;,&#34;as many as the rows (covariates)&#34;,null,&#34;stratum&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;504b44c9c8d9680b6428a0bc096187b7&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;stratum&#34;,&#34;N_&#34;,&#34;age_mean_&#34;,&#34;age_sd_&#34;,&#34;gender__N_&#34;,&#34;gender__perc_&#34;,&#34;yrsdiab_median_&#34;,&#34;yrsdiab_q1_&#34;,&#34;yrsdiab_q3_&#34;,&#34;_mean_&#34;,&#34;_sd_&#34;,&#34;_median_&#34;,&#34;_q1_&#34;,&#34;_q3_&#34;,&#34;_missingN_&#34;,&#34;_missingperc_&#34;,&#34;_value_N_&#34;,&#34;_value_perc_&#34;,&#34;_missingN_&#34;,&#34;_missingperc_&#34;,&#34;_N_&#34;,&#34;_perc_&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[&#34;overall = stratum including the whole study population\nexp1 = stratum including only population with exposure == 1\nexp0 = stratum including only population with exposure == 0&#34;</description>
+    </item>
+    <item>
+      <title>D5_Supplementary_Figure_1</title>
+      <link>/step_7/d5_supplementary_figure_1/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_supplementary_figure_1/index.html</guid>
+      <description>MetadataData ModelParametersExampleShell_Figure{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_Supplementary_Figure_1&#34;,&#34;Distribution and overlap of propensity scores by treatment group.&#34;,&#34;treatment group&#34;,&#34;-0.1&#34;,&#34;number of bins between 0 an 1 that we are going to use to draw the Figure&#34;,&#34;40&#34;,&#34;ds exposure_stratum&#34;</description>
+    </item>
+    <item>
+      <title>D5_Table_3_asd_before_after_trimming</title>
+      <link>/step_7/d5_table_3_asd_before_after_trimming/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_table_3_asd_before_after_trimming/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D5_Table_4_follow_up_time_and_reasons_for_censoring</title>
+      <link>/step_7/d5_table_4_follow_up_time_and_reasons_for_censoring/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_table_4_follow_up_time_and_reasons_for_censoring/index.html</guid>
+      <description>MetadataData ModelParametersExampleShellTable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;...1&#34;:[&#34;NA&#34;,1,2,3,4,5,6,7,8,9,10,11,12,13,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;,&#34;NA&#34;],&#34;...2&#34;:[&#34;N&#34;,&#34;Person-months of follow-up&#34;,&#34;Median (Q1, Q3)&#34;,&#34;Min, max&#34;,null,&#34;Reason for censoring, n (%)&#34;,&#34;Date of outcome&#34;,&#34;Date of death&#34;,&#34;Date of last date of data collection in the data source&#34;,&#34;Day 730 following index date&#34;,&#34;Date of end of the study&#34;,&#34;Date of end of the index episode of treatment&#34;,&#34;Date of switch from the index episode of treatment&#34;,&#34;Date of end of observation of the person in the data source&#34;</description>
+    </item>
+    <item>
+      <title>D5_table_S3</title>
+      <link>/step_7/d5_table_s3/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_table_s3/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D5_ResultsIR_HR</title>
+      <link>/step_7/d5_resultsir_hr/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_resultsir_hr/index.html</guid>
+      <description>MetadataData ModelParametersExampleShellTable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_ResultsIR_HR&#34;,&#34;Results of estimands and sensitivity analyses that use Incidence Rate and Cox model&#34;,&#34;analysis and exposure stratum&#34;,&#34;(E1 E2 TP1 TP2 TP3 TP4) x (0,1)&#34;,&#34;1&#34;,&#34;1&#34;,null,&#34;analysisIR_HR exposure_stratum&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;6615728b6ece7016e379c6fc21c704ab&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;</description>
+    </item>
+    <item>
+      <title>D5_ResultsRMST</title>
+      <link>/step_7/d5_resultsrmst/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_resultsrmst/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+    <item>
+      <title>D5_ResultsIPC</title>
+      <link>/step_7/d5_resultsipc/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_resultsipc/index.html</guid>
+      <description>MetadataData ModelParametersExampleShellTable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_ResultsIPC&#34;,&#34;Comparison of hazard ratios and 95% Cis from main analysis and sensitivity analyses accounting for nonrandom censoring by IPC-weighting&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;92697fd2c17bc77772718d3d7d09c146&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;ds&#34;,&#34;exposure&#34;,&#34;HR_crude_&#34;,&#34;HR_crude_lb_&#34;,&#34;HR_crude_up_&#34;,&#34;HR_adj_IPC_&#34;,&#34;HR_adj_IPC_lb_&#34;,&#34;HR_adj_IPC_ub_&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[null,null,null,null,null,&#34;IPT- and IPC-weighted HR&#34;,&#34;IPT- and IPC-weighted HR, lower bound 95% CI* &#34;</description>
+    </item>
+    <item>
+      <title>D5_Supplementary_Figure_2_MICE</title>
+      <link>/step_7/d5_supplementary_figure_2_mice/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_supplementary_figure_2_mice/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+    <item>
+      <title>D5_ResultsIR_HR_MICE</title>
+      <link>/step_7/d5_resultsir_hr_mice/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/d5_resultsir_hr_mice/index.html</guid>
+      <description>MetadataData ModelParametersExampleShellTable{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D5_ResultsIR_HR&#34;,&#34;Results of estimands and sensitivity analyses that use Incidence Rate and Cox model&#34;,&#34;analysis and exposure stratum&#34;,&#34;(E1 E2 TP1 TP2 TP3 TP4) x (0,1)&#34;,&#34;1&#34;,&#34;1&#34;,null,&#34;analysisIR_HR exposure_stratum&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;6615728b6ece7016e379c6fc21c704ab&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;</description>
+    </item>
+  </channel>
+</rss>

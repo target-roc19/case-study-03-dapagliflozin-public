@@ -1,0 +1,18 @@
+---
+weight: 2
+name_excel: "SUBPOP.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+slug: "SUBPOP"
+datetime: 1.7939627e+09
+title: SUBPOP
+author: ''
+date: '2026-11-06'
+categories: []
+tags: []
+archetype: codebook
+output: html_document
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

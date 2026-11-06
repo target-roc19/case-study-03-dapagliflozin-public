@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.95.0">
+    <meta name="generator" content="Relearn 5.19.0+tip">
+    <meta name="description" content="Results of estimands and sensitivity analyses that use Incidence Rate and Cox model">
+    <meta name="author" content="ARS Tuscany">
+    <title>D5_ResultsIR_HR_MICE :: TARGET CS3 Documentation</title>
+    <link href="../../step_7/d5_resultsir_hr_mice/index.xml" rel="alternate" type="application/rss+xml" title="D5_ResultsIR_HR_MICE :: TARGET CS3 Documentation">
+    <link href="../../step_7/d5_resultsir_hr_mice/index.print.html" rel="alternate" type="text/html" title="D5_ResultsIR_HR_MICE :: TARGET CS3 Documentation">
+    <link href="../../images/logo.svg" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css" rel="stylesheet">
+    <link href="../../css/auto-complete.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="../../css/fonts.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css" rel="stylesheet">
+    <link href="../../css/theme-auto.css" rel="stylesheet" id="variant-style">
+    <link href="../../css/variant.css" rel="stylesheet">
+    <link href="../../css/print.css" rel="stylesheet" media="print">
+    <link href="../../css/ie.css" rel="stylesheet">
+    <script src="../../js/url.js"></script>
+    <script src="../../js/variant.js"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../index.search.js";
+      var root_url="../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+    </script><style>
+#body img.bg-white {
+        background-color: white;
+}
+
+div.main-container {
+  max-width: 1800px;
+}
+
+.tab {font-family: Arial;}
+
+ 
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+ 
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ 
+.tab button:hover {
+  background-color: #ddd;
+}
+
+ 
+.tab button.active {
+  background-color: #ccc;
+}
+
+ 
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@media screen and (min-width: 1300px) {
+   
+  #body .flex-block-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    width: 100%;
+  }
+}
+
+</style>
+
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="../../step_7/d5_resultsir_hr_mice/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="../../step_8/index.html" title="_index.en (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="../../step_7/d5_supplementary_figure_2_mice/index.html" title="D5_Supplementary_Figure_2_MICE (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link topbar-link" title='Print whole chapter (CTRL+ALT+p)' href="../../step_7/d5_resultsir_hr_mice/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../index.html"><span itemprop="name">Documentation for TARGET CS3 project</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../step_7/index.html"><span itemprop="name">_index.en</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">D5_ResultsIR_HR_MICE</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper">
+<nav id="TableOfContents"></nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable codebook" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="codebook">
+            <header class="headline">
+            </header>
+<h1 id="d5_resultsir_hr_mice">D5_ResultsIR_HR_MICE</h1>
+
+<script src="../../rmarkdown-libs/core-js/shim.min.js"></script>
+<script src="../../rmarkdown-libs/react/react.min.js"></script>
+<script src="../../rmarkdown-libs/react/react-dom.min.js"></script>
+<script src="../../rmarkdown-libs/reactwidget/react-tools.js"></script>
+<script src="../../rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="../../rmarkdown-libs/reactable/reactable.css" rel="stylesheet" />
+<script src="../../rmarkdown-libs/reactable-binding/reactable.js"></script>
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, &#39;Metadata&#39;)" id="defaultOpen">Metadata</button>
+<button class="tablinks" onclick="openCity(event, &#39;Data Model&#39;)">Data Model</button>
+<button class="tablinks" onclick="openCity(event, &#39;Parameters&#39;)">Parameters</button>
+<button class="tablinks" onclick="openCity(event, &#39;Example&#39;)">Example</button>
+<button class="tablinks" onclick="openCity(event, &#39;ShellTable&#39;)">ShellTable</button>
+</div>
+<div id="Metadata" class="tabcontent">
+<div id="htmlwidget-1" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"medatata_name":["Name of the dataset","Content of the dataset","Unit of observation","Dataset where the list of UoOs is fully listed and with 1 record per UoO","How many observations per UoO","NxUoO","Variables capturing the UoO","Primary key","Parameters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"metadata_content":["D5_ResultsIR_HR","Results of estimands and sensitivity analyses that use Incidence Rate and Cox model","analysis and exposure stratum","(E1 E2 TP1 TP2 TP3 TP4) x (0,1)","1","1",null,"analysisIR_HR exposure_stratum",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"medatata_name","name":"medatata_name","type":"character"},{"id":"metadata_content","name":"metadata_content","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"6615728b6ece7016e379c6fc21c704ab"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Data Model" class="tabcontent">
+<div id="htmlwidget-2" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Varname":["ds","analysisIR_HR","exposure_stratum","N_","N_outcomes_","PY_","IR_","IRll_","IRul_","HR_","HRll_","HRul_","logrank_unadj",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Description":[null,"Label of the analysis that needs calculation of IR and HR","stratum of exposure","number of records in the analytical dataset for analysis == analysisIR_HR with exposure == exposure stratum","number of records in the analytical dataset for analysis == analysisIR_HR with exposure == exposure stratum and with outcome 1","number of person-years for followup in the analytical dataset for analysis == analysisIR_HR with exposure == exposure stratum","incidence rate per 1000 PY for analysis == analysisIR_HR with exposure == exposure stratum","Lower bound of 96% CI of the incidence rate per 1000 PY for analysis == analysisIR_HR with exposure == exposure stratum","Upper bound of 96% CI of the incidence rate per 1000 PY for analysis == analysisIR_HR with exposure == exposure stratum","Crude hazard ratio of outcome of exposed compared to comparators for analysis == analysisIR_HR","Lower bound of 95% CI for the crude hazard ratio of outcome of exposed compared to comparators for analysis == analysisIR_HR","Upper bound of 95% CI for the crude hazard ratio of outcome of exposed compared to comparators for analysis == analysisIR_HR","Logrank of the crude Cox model",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Format":["character",null,null,"int","int","float (1 digit)","Float (3 digit)","Float (3 digit)","Float (3 digit)","Float (3 digit)","Float (3 digit)","Float (3 digit)","Float (3 digit)",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Vocabulary":[null,"E1 = Estimand 1 \nE2 = Estimand 2 \nTP1 = Tipping Point Scenario 1 \nTP2 = Tipping Point Scenario 2 \nTP3 = Tipping Point Scenario 3 \nTP4 = Tipping Point Scenario 4","1 = exposed\n0 = comparator",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Parameters":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Notes and examples":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Source tables and variables":["SETTINGS",null,null,"D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP","D4_ANALYTICAL_DATASET_HR_RMST_TP",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Retrieved":["yes",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Calculated":[null,"yes","yes","yes","yes","yes",null,"yes","yes","yes","yes","yes","yes",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Algorithm_id":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Rule":[null,"Create an empty dataset with as many rows as the possible values of analysisIR_HR (6)","multiply the dataset created in the previous step by 2","Count number of records in D4_ANALYTICAL_DATASET_HR_RMST_TP with exposure == exposure stratum","Count number of records in D4_ANALYTICAL_DATASET_HR_RMST_TP with exposure == exposure stratum and <analysisIR_HR>_outcomes == 1","sum <analysisIR_HR>_fup in D4_ANALYTICAL_DATASET_HR_RMST_TP with exposure == exposure stratum","1000*N_outcomes/PY_","apply the Ulm formula to PY_ and N_outcomes (A Simple Method to Calculate the Confidence Interval of a Standardized Mortality Ratio (SMR). Am. J. Epidemiol. 1990, 131 (2), 373–375) with conversion factor 1000","apply the Ulm formula to PY_ and N_outcomes (A Simple Method to Calculate the Confidence Interval of a Standardized Mortality Ratio (SMR). Am. J. Epidemiol. 1990, 131 (2), 373–375) with conversion factor 1000","estimate cox model using \nsurv_obj <- Surv(time = input$FUP, event = input$outcome)          \nCox_model <- coxph(surv_obj ~ exposure, data = input, robust=TRUE)\nThen assign\n      HR_ = ifelse(exposure_stratum == 1,                           round(exp(coef(cox_model)), digits = 3),                           1)","Hrll_ = ifelse(exposure_stratum == 1,                              round(exp(confint(cox_model))[,1], digits = 3),                              NA),","Hrul_ = ifelse(exposure_stratum == 1,                              round(exp(confint(cox_model))[,2], digits = 3),                              NA)","design <- svydesign(ids = ~1, data = input)     \nlogrank <- svylogrank(surv_obj ~ exposure, design = design)     \nProcessing[, logrank_unadj := round(logrank[[2]][\"p\"],3)]",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Varname","name":"Varname","type":"character"},{"id":"Description","name":"Description","type":"character"},{"id":"Format","name":"Format","type":"character"},{"id":"Vocabulary","name":"Vocabulary","type":"character"},{"id":"Parameters","name":"Parameters","type":"logical"},{"id":"Notes and examples","name":"Notes and examples","type":"logical"},{"id":"Source tables and variables","name":"Source tables and variables","type":"character"},{"id":"Retrieved","name":"Retrieved","type":"character"},{"id":"Calculated","name":"Calculated","type":"character"},{"id":"Algorithm_id","name":"Algorithm_id","type":"logical"},{"id":"Rule","name":"Rule","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"8981520438101fc7df1192c6bf18c526"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Parameters" class="tabcontent">
+<div id="htmlwidget-3" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"parameter":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"values":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"name in protocol":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"has_missing":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"parameter","name":"parameter","type":"logical"},{"id":"values","name":"values","type":"logical"},{"id":"name in protocol","name":"name in protocol","type":"logical"},{"id":"has_missing","name":"has_missing","type":"logical"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"238ad13f23bcd3a786fa336c8d39229c"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Example" class="tabcontent">
+<div id="htmlwidget-4" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"D4_ANALYTICAL_DATASET_HR_RMST_TP":["person_id","P01","P02","P03","P04","P05","P06","P07","P08","P09","P10","P11","P12","P13","P14","P15","P16",null,null,null,null,"ds","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD","CPRD",null,null,null,null,null,null],"...2":["exposure","1","0","1","0","1","0","1","0","1","0","1","0","1","0","1","0",null,null,null,null,"exposure_stratum","1","0","1","0","1","0","1","0","1","0","1","0",null,null,null,null,null,null],"...3":["matched_set_id",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"analysisIR_HR","E1","E1","E2","E2","TP1","TP1","TP2","TP2","TP3","TP3","TP4","TP4",null,null,null,null,null,null],"...4":["E1_outcome","1","0","0","0","1","0","0","1","1","0","0","0","1","0","0","1",null,null,null,null,"N_","8","8","8","8","8","8","8","8","8","8","8","8",null,null,null,null,null,null],"...5":["E1_fup","350","400","400","400","200","125","125","125","350","400","400","400","200","125","125","125",null,null,null,null,"N_outcome_","4","2","4","2","4","4","6","2","4","2","6","4",null,null,null,null,null,null],"...6":["E2_outcome","1","0","0","0","1","0","0","1","1","0","0","0","1","0","0","1",null,null,null,null,"PY_","5.9","5.7","4.8","4.1","7.4","7.3","7.4","7.3","7.4","7.3","7.4","7.3",null,null,null,null,null,null],"...7":["E2_fup","350","400","200","100","200","125","125","125","350","400","200","100","200","125","125","125",null,null,null,null,"IR_","678","350.9","833.3","487.8","540.5","547.9","810.8","274","540.5","274","810.8","547.9",null,null,null,null,null,null],"...8":["E3_outcome","1","0","0","0","1","0","0","1","1","0","0","0","1","0","0","1",null,null,null,null,"IRll_","184.7","42.5","227.1","59.1","147.3","149.3","297.6","33.2","147.3","33.2","297.6","149.3",null,null,null,null,null,null],"...9":["E3_fup","350","400","400","400","200","125","125","125","350","400","400","400","200","125","125","125",null,null,null,null,"IRul_","1735.9","1267.5","2133.7","1762.1","1384","1403","1764.8","989.7","1384","989.7","1764.8","1403",null,null,null,null,null,null],"...10":["TP1_outcome","1","0","0","0","1","1","0","1","1","0","0","0","1","1","0","1",null,null,null,null,"HR_","1.862","1","1.489","1","1.03","1","3.351","1","1.88","1","1.769","1",null,null,null,null,null,null],"...11":["TP1_fup","350","400","400","400","200","400","400","125","350","400","400","400","200","400","400","125",null,null,null,null,"HRll_","0.332",null,"0.235",null,"0.274",null,"0.596",null,"0.338",null,"0.514",null,null,null,null,null,null,null],"...12":["TP2_outcome","1","0","0","0","1","0","1","1","1","0","0","0","1","0","1","1",null,null,null,null,"HRul_","10.44",null,"9.42",null,"3.874",null,"18.843",null,"10.446",null,"6.093",null,null,null,null,null,null,null],"...13":["TP2_fup","350","400","400","400","200","400","400","125","350","400","400","400","200","400","400","125",null,null,null,null,"logrank_unadj","0.485","0.485","0.77","0.77","0.966","0.966","0.106","0.106","0.461","0.461","0.389","0.389",null,null,null,null,null,null],"...14":["TP2_outcome","1","0","0","0","1","0","0","1","1","0","0","0","1","0","0","1",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...15":["TP3_fup","350","400","400","400","200","400","400","125","350","400","400","400","200","400","400","125",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...16":["TP4_outcome","1","0","0","0","1","1","1","1","1","0","0","0","1","1","1","1",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...17":["TP4_fup","350","400","400","400","200","400","400","125","350","400","400","400","200","400","400","125",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"D4_ANALYTICAL_DATASET_HR_RMST_TP","name":"D4_ANALYTICAL_DATASET_HR_RMST_TP","type":"character"},{"id":"...2","name":"...2","type":"character"},{"id":"...3","name":"...3","type":"character"},{"id":"...4","name":"...4","type":"character"},{"id":"...5","name":"...5","type":"character"},{"id":"...6","name":"...6","type":"character"},{"id":"...7","name":"...7","type":"character"},{"id":"...8","name":"...8","type":"character"},{"id":"...9","name":"...9","type":"character"},{"id":"...10","name":"...10","type":"character"},{"id":"...11","name":"...11","type":"character"},{"id":"...12","name":"...12","type":"character"},{"id":"...13","name":"...13","type":"character"},{"id":"...14","name":"...14","type":"character"},{"id":"...15","name":"...15","type":"character"},{"id":"...16","name":"...16","type":"character"},{"id":"...17","name":"...17","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"7e0847bd75a30a8cb7733cf37d51dc50"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="ShellTable" class="tabcontent">
+<div id="htmlwidget-5" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-5">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"ds":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"analysisIR_HR":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"exposure_stratum":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"N_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"N_outcomes_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"PY_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"IR_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"IRll_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"IRul_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"HR_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"HRll_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"HRul_":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"logrank_unadj":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"ds","name":"ds","type":"logical"},{"id":"analysisIR_HR","name":"analysisIR_HR","type":"logical"},{"id":"exposure_stratum","name":"exposure_stratum","type":"logical"},{"id":"N_","name":"N_","type":"logical"},{"id":"N_outcomes_","name":"N_outcomes_","type":"logical"},{"id":"PY_","name":"PY_","type":"logical"},{"id":"IR_","name":"IR_","type":"logical"},{"id":"IRll_","name":"IRll_","type":"logical"},{"id":"IRul_","name":"IRul_","type":"logical"},{"id":"HR_","name":"HR_","type":"logical"},{"id":"HRll_","name":"HRll_","type":"logical"},{"id":"HRul_","name":"HRul_","type":"logical"},{"id":"logrank_unadj","name":"logrank_unadj","type":"logical"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"fed6611562b2ee5a541d81114856910f"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+<a id="logo" href="../../">
+  <img src="../../CVM_logo.png">
+</a>
+        </div>
+        <form action="../../search.html" method="get"><div class="searchbox default-animation">
+          <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+        </div></form>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="../../js/auto-complete.js" defer></script>
+        <script src="../../js/lunr/lunr.min.js" defer></script>
+        <script src="../../js/lunr/lunr.stemmer.support.min.js" defer></script>
+        <script src="../../js/lunr/lunr.multi.min.js" defer></script>
+        <script src="../../js/lunr/lunr.en.min.js" defer></script>
+        <script src="../../js/search.js" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li><a class="padding" href="../../index.html"><i class='fas fa-home'></i> Home</a></li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace collapsible-menu">
+          <li data-nav-id="/step_0/index.html" class=""><input type="checkbox" id="section-c7e6266b9a71b643baabb48ad9563da7" aria-controls="subsections-c7e6266b9a71b643baabb48ad9563da7"><label for="section-c7e6266b9a71b643baabb48ad9563da7"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_0</span></label><a class="padding" href="../../step_0/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_0</a><ul id="subsections-c7e6266b9a71b643baabb48ad9563da7" class="morespace collapsible-menu">
+          <li data-nav-id="/step_0/settings/index.html" class=""><a class="padding" href="../../step_0/settings/index.html">SETTINGS</a></li>
+          <li data-nav-id="/step_0/subpop/index.html" class=""><a class="padding" href="../../step_0/subpop/index.html">SUBPOP</a></li></ul></li>
+          <li data-nav-id="/step_1/index.html" class=""><input type="checkbox" id="section-944edcb23889140d5a467d86e231cf18" aria-controls="subsections-944edcb23889140d5a467d86e231cf18"><label for="section-944edcb23889140d5a467d86e231cf18"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_1</span></label><a class="padding" href="../../step_1/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_1</a><ul id="subsections-944edcb23889140d5a467d86e231cf18" class="morespace collapsible-menu">
+          <li data-nav-id="/step_1/codelist_id_dataset/index.html" class=""><a class="padding" href="../../step_1/codelist_id_dataset/index.html">codelist_id_dataset</a></li>
+          <li data-nav-id="/step_1/itemset_id_dataset/index.html" class=""><a class="padding" href="../../step_1/itemset_id_dataset/index.html">itemset_id_dataset</a></li></ul></li>
+          <li data-nav-id="/step_2/index.html" class=""><input type="checkbox" id="section-078d9861eb1514ca5ae51646cc32f345" aria-controls="subsections-078d9861eb1514ca5ae51646cc32f345"><label for="section-078d9861eb1514ca5ae51646cc32f345"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_2</span></label><a class="padding" href="../../step_2/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_2</a><ul id="subsections-078d9861eb1514ca5ae51646cc32f345" class="morespace collapsible-menu">
+          <li data-nav-id="/step_2/d3_persons/index.html" class=""><a class="padding" href="../../step_2/d3_persons/index.html">D3_PERSONS</a></li>
+          <li data-nav-id="/step_2/d3_obsperiods/index.html" class=""><a class="padding" href="../../step_2/d3_obsperiods/index.html">D3_OBSPERIODS</a></li>
+          <li data-nav-id="/step_2/output_spells_category_meaning_set/index.html" class=""><a class="padding" href="../../step_2/output_spells_category_meaning_set/index.html">output_spells_category_meaning_set</a></li>
+          <li data-nav-id="/step_2/d3_selection_criteria_from_d3_persons_to_d3_entry_flowchart/index.html" class=""><a class="padding" href="../../step_2/d3_selection_criteria_from_d3_persons_to_d3_entry_flowchart/index.html">D3_selection_criteria_from_D3_PERSONS_to_D3_ENTRY_FLOWCHART</a></li>
+          <li data-nav-id="/step_2/d3_entry_flowchart/index.html" class=""><a class="padding" href="../../step_2/d3_entry_flowchart/index.html">D3_ENTRY_FLOWCHART</a></li>
+          <li data-nav-id="/step_2/d5_diagnostic_clean_lab/index.html" class=""><a class="padding" href="../../step_2/d5_diagnostic_clean_lab/index.html">D5_DIAGNOSTIC_CLEAN_LAB</a></li>
+          <li data-nav-id="/step_2/d5_diagnostic_clean_lab_masked/index.html" class=""><a class="padding" href="../../step_2/d5_diagnostic_clean_lab_masked/index.html">D5_DIAGNOSTIC_CLEAN_LAB_masked</a></li>
+          <li data-nav-id="/step_2/d3_egfr/index.html" class=""><a class="padding" href="../../step_2/d3_egfr/index.html">D3_EGFR</a></li>
+          <li data-nav-id="/step_2/d3_covariate_simple_td/index.html" class=""><a class="padding" href="../../step_2/d3_covariate_simple_td/index.html">D3_covariate_simple_TD</a></li>
+          <li data-nav-id="/step_2/d3_covariate_complex_td/index.html" class=""><a class="padding" href="../../step_2/d3_covariate_complex_td/index.html">D3_covariate_complex_TD</a></li>
+          <li data-nav-id="/step_2/d3_episodes_study_drugs/index.html" class=""><a class="padding" href="../../step_2/d3_episodes_study_drugs/index.html">D3_EPISODES_STUDY_DRUGS</a></li>
+          <li data-nav-id="/step_2/d5_check_study_drugs_duration/index.html" class=""><a class="padding" href="../../step_2/d5_check_study_drugs_duration/index.html">D5_check_study_drugs_duration</a></li>
+          <li data-nav-id="/step_2/d5_check_study_drugs_duration_masked/index.html" class=""><a class="padding" href="../../step_2/d5_check_study_drugs_duration_masked/index.html">D5_check_study_drugs_duration_masked</a></li>
+          <li data-nav-id="/step_2/d3_eligibility_episode/index.html" class=""><a class="padding" href="../../step_2/d3_eligibility_episode/index.html">D3_ELIGIBILITY_EPISODE</a></li>
+          <li data-nav-id="/step_2/d3_eligibility/index.html" class=""><a class="padding" href="../../step_2/d3_eligibility/index.html">D3_ELIGIBILITY</a></li></ul></li>
+          <li data-nav-id="/step_3/index.html" class=""><input type="checkbox" id="section-15901cf6a5a90508377139843b17e95e" aria-controls="subsections-15901cf6a5a90508377139843b17e95e"><label for="section-15901cf6a5a90508377139843b17e95e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_3</span></label><a class="padding" href="../../step_3/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_3</a><ul id="subsections-15901cf6a5a90508377139843b17e95e" class="morespace collapsible-menu">
+          <li data-nav-id="/step_3/d3_study_population/index.html" class=""><a class="padding" href="../../step_3/d3_study_population/index.html">D3_STUDY_POPULATION</a></li></ul></li>
+          <li data-nav-id="/step_4/index.html" class=""><input type="checkbox" id="section-8a999816131f380435f1794ccdea30ae" aria-controls="subsections-8a999816131f380435f1794ccdea30ae"><label for="section-8a999816131f380435f1794ccdea30ae"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_4</span></label><a class="padding" href="../../step_4/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_4</a><ul id="subsections-8a999816131f380435f1794ccdea30ae" class="morespace collapsible-menu">
+          <li data-nav-id="/step_4/d3_covariate_complex_imputed_td/index.html" class=""><a class="padding" href="../../step_4/d3_covariate_complex_imputed_td/index.html">D3_covariate_complex_IMPUTED_TD</a></li>
+          <li data-nav-id="/step_4/d3_exp_act_cov/index.html" class=""><a class="padding" href="../../step_4/d3_exp_act_cov/index.html">D3_EXP_ACT_COV</a></li>
+          <li data-nav-id="/step_4/d3_exp_act_cov_imputation/index.html" class=""><a class="padding" href="../../step_4/d3_exp_act_cov_imputation/index.html">D3_EXP_ACT_COV_IMPUTATION</a></li>
+          <li data-nav-id="/step_4/d3_outcomes/index.html" class=""><a class="padding" href="../../step_4/d3_outcomes/index.html">D3_OUTCOMES</a></li>
+          <li data-nav-id="/step_4/d5_diagnostic_meaning_outcomes/index.html" class=""><a class="padding" href="../../step_4/d5_diagnostic_meaning_outcomes/index.html">D5_DIAGNOSTIC_MEANING_OUTCOMES</a></li>
+          <li data-nav-id="/step_4/d5_diagnostic_meaning_outcomes_masked/index.html" class=""><a class="padding" href="../../step_4/d5_diagnostic_meaning_outcomes_masked/index.html">D5_DIAGNOSTIC_MEANING_OUTCOMES_masked</a></li></ul></li>
+          <li data-nav-id="/step_5/index.html" class=""><input type="checkbox" id="section-533c61c720dd0d031da92289b4b8767b" aria-controls="subsections-533c61c720dd0d031da92289b4b8767b"><label for="section-533c61c720dd0d031da92289b4b8767b"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_5</span></label><a class="padding" href="../../step_5/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_5</a><ul id="subsections-533c61c720dd0d031da92289b4b8767b" class="morespace collapsible-menu">
+          <li data-nav-id="/step_5/d4_exp_act_cov_weight/index.html" class=""><a class="padding" href="../../step_5/d4_exp_act_cov_weight/index.html">D4_EXP_ACT_COV_WEIGHT</a></li>
+          <li data-nav-id="/step_5/d5_ps_model_or/index.html" class=""><a class="padding" href="../../step_5/d5_ps_model_or/index.html">D5_PS_model_OR</a></li>
+          <li data-nav-id="/step_5/d4_fup/index.html" class=""><a class="padding" href="../../step_5/d4_fup/index.html">D4_FUP</a></li>
+          <li data-nav-id="/step_5/d5_check_recommended_end_date/index.html" class=""><a class="padding" href="../../step_5/d5_check_recommended_end_date/index.html">D5_check_recommended_end_date</a></li>
+          <li data-nav-id="/step_5/d5_check_recommended_end_date_masked/index.html" class=""><a class="padding" href="../../step_5/d5_check_recommended_end_date_masked/index.html">D5_check_recommended_end_date_masked</a></li>
+          <li data-nav-id="/step_5/d5_check_components_outcome/index.html" class=""><a class="padding" href="../../step_5/d5_check_components_outcome/index.html">D5_check_components_outcome</a></li>
+          <li data-nav-id="/step_5/d5_check_components_outcome_masked/index.html" class=""><a class="padding" href="../../step_5/d5_check_components_outcome_masked/index.html">D5_check_components_outcome_masked</a></li>
+          <li data-nav-id="/step_5/d4_exp_act_cov_weight_truncated/index.html" class=""><a class="padding" href="../../step_5/d4_exp_act_cov_weight_truncated/index.html">D4_EXP_ACT_COV_WEIGHT_TRUNCATED</a></li>
+          <li data-nav-id="/step_5/d4_analytical_dataset_hr_rmst_tp/index.html" class=""><a class="padding" href="../../step_5/d4_analytical_dataset_hr_rmst_tp/index.html">D4_ANALYTICAL_DATASET_HR_RMST_TP</a></li>
+          <li data-nav-id="/step_5/d4_censoring_weights_truncated/index.html" class=""><a class="padding" href="../../step_5/d4_censoring_weights_truncated/index.html">D4_CENSORING_WEIGHTS_TRUNCATED</a></li>
+          <li data-nav-id="/step_5/d4_exp_act_cov_weight_mice/index.html" class=""><a class="padding" href="../../step_5/d4_exp_act_cov_weight_mice/index.html">D4_EXP_ACT_COV_WEIGHT_MICE</a></li>
+          <li data-nav-id="/step_5/d4_exp_act_cov_weight_mice_truncated/index.html" class=""><a class="padding" href="../../step_5/d4_exp_act_cov_weight_mice_truncated/index.html">D4_EXP_ACT_COV_WEIGHT_MICE_TRUNCATED</a></li>
+          <li data-nav-id="/step_5/d4_analytical_dataset_hr_mice/index.html" class=""><a class="padding" href="../../step_5/d4_analytical_dataset_hr_mice/index.html">D4_ANALYTICAL_DATASET_HR_MICE</a></li></ul></li>
+          <li data-nav-id="/step_7/index.html" class="parent "><input type="checkbox" id="section-89517f1fad5f62117cedf6729d57eaef" aria-controls="subsections-89517f1fad5f62117cedf6729d57eaef" checked><label for="section-89517f1fad5f62117cedf6729d57eaef"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_7</span></label><a class="padding" href="../../step_7/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_7</a><ul id="subsections-89517f1fad5f62117cedf6729d57eaef" class="morespace collapsible-menu">
+          <li data-nav-id="/step_7/d5_table_1/index.html" class=""><a class="padding" href="../../step_7/d5_table_1/index.html">D5_Table_1</a></li>
+          <li data-nav-id="/step_7/d5_table_2_baseline_cohort/index.html" class=""><a class="padding" href="../../step_7/d5_table_2_baseline_cohort/index.html">D5_Table_2_baseline_cohort</a></li>
+          <li data-nav-id="/step_7/d5_supplementary_figure_1/index.html" class=""><a class="padding" href="../../step_7/d5_supplementary_figure_1/index.html">D5_Supplementary_Figure_1</a></li>
+          <li data-nav-id="/step_7/d5_table_3_asd_before_after_trimming/index.html" class=""><a class="padding" href="../../step_7/d5_table_3_asd_before_after_trimming/index.html">D5_Table_3_asd_before_after_trimming</a></li>
+          <li data-nav-id="/step_7/d5_table_4_follow_up_time_and_reasons_for_censoring/index.html" class=""><a class="padding" href="../../step_7/d5_table_4_follow_up_time_and_reasons_for_censoring/index.html">D5_Table_4_follow_up_time_and_reasons_for_censoring</a></li>
+          <li data-nav-id="/step_7/d5_table_s3/index.html" class=""><a class="padding" href="../../step_7/d5_table_s3/index.html">D5_table_S3</a></li>
+          <li data-nav-id="/step_7/d5_resultsir_hr/index.html" class=""><a class="padding" href="../../step_7/d5_resultsir_hr/index.html">D5_ResultsIR_HR</a></li>
+          <li data-nav-id="/step_7/d5_resultsrmst/index.html" class=""><a class="padding" href="../../step_7/d5_resultsrmst/index.html">D5_ResultsRMST</a></li>
+          <li data-nav-id="/step_7/d5_resultsipc/index.html" class=""><a class="padding" href="../../step_7/d5_resultsipc/index.html">D5_ResultsIPC</a></li>
+          <li data-nav-id="/step_7/d5_supplementary_figure_2_mice/index.html" class=""><a class="padding" href="../../step_7/d5_supplementary_figure_2_mice/index.html">D5_Supplementary_Figure_2_MICE</a></li>
+          <li data-nav-id="/step_7/d5_resultsir_hr_mice/index.html" class="active"><a class="padding" href="../../step_7/d5_resultsir_hr_mice/index.html">D5_ResultsIR_HR_MICE</a></li></ul></li>
+          <li data-nav-id="/step_8/index.html" class=""><input type="checkbox" id="section-8672b18042890715fa21835441226438" aria-controls="subsections-8672b18042890715fa21835441226438"><label for="section-8672b18042890715fa21835441226438"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_8</span></label><a class="padding" href="../../step_8/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_8</a><ul id="subsections-8672b18042890715fa21835441226438" class="morespace collapsible-menu">
+          <li data-nav-id="/step_8/d5_table_1_masked/index.html" class=""><a class="padding" href="../../step_8/d5_table_1_masked/index.html">D5_Table_1_masked</a></li>
+          <li data-nav-id="/step_8/d5_table_2_baseline_cohort_masked/index.html" class=""><a class="padding" href="../../step_8/d5_table_2_baseline_cohort_masked/index.html">D5_Table_2_baseline_cohort_masked</a></li>
+          <li data-nav-id="/step_8/d5_supplementary_figure_1_masked/index.html" class=""><a class="padding" href="../../step_8/d5_supplementary_figure_1_masked/index.html">D5_Supplementary_Figure_1_masked</a></li>
+          <li data-nav-id="/step_8/d5_table_3_asd_before_after_trimming_masked/index.html" class=""><a class="padding" href="../../step_8/d5_table_3_asd_before_after_trimming_masked/index.html">D5_Table_3_asd_before_after_trimming_masked</a></li>
+          <li data-nav-id="/step_8/d5_table_4_follow_up_time_and_reasons_for_censoring_masked/index.html" class=""><a class="padding" href="../../step_8/d5_table_4_follow_up_time_and_reasons_for_censoring_masked/index.html">D5_Table_4_follow_up_time_and_reasons_for_censoring_masked</a></li>
+          <li data-nav-id="/step_8/d5_table_5_crude_ir_rmst_masked/index.html" class=""><a class="padding" href="../../step_8/d5_table_5_crude_ir_rmst_masked/index.html">D5_Table_5_crude_IR_RMST_masked</a></li>
+          <li data-nav-id="/step_8/d5_supplementary_figure_2_mice_masked/index.html" class=""><a class="padding" href="../../step_8/d5_supplementary_figure_2_mice_masked/index.html">D5_Supplementary_Figure_2_MICE_masked</a></li></ul></li>
+          <li data-nav-id="/step_9/index.html" class=""><input type="checkbox" id="section-25e34a30abdf162ca46eab14c94a8a5e" aria-controls="subsections-25e34a30abdf162ca46eab14c94a8a5e"><label for="section-25e34a30abdf162ca46eab14c94a8a5e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Step_9</span></label><a class="padding" href="../../step_9/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;"></b> Step_9</a><ul id="subsections-25e34a30abdf162ca46eab14c94a8a5e" class="morespace collapsible-menu">
+          <li data-nav-id="/step_9/d6_table_1/index.html" class=""><a class="padding" href="../../step_9/d6_table_1/index.html">D6_Table_1</a></li>
+          <li data-nav-id="/step_9/d6_figure_1_masked.png/index.html" class=""><a class="padding" href="../../step_9/d6_figure_1_masked.png/index.html">D6_Figure_1_masked.png</a></li>
+          <li data-nav-id="/step_9/d6_table_2_baseline_cohort/index.html" class=""><a class="padding" href="../../step_9/d6_table_2_baseline_cohort/index.html">D6_Table_2_baseline_cohort</a></li>
+          <li data-nav-id="/step_9/d6_supplementary_figure_1/index.html" class=""><a class="padding" href="../../step_9/d6_supplementary_figure_1/index.html">D6_Supplementary_Figure_1</a></li>
+          <li data-nav-id="/step_9/d6_table_3_asd_before_after_weighting/index.html" class=""><a class="padding" href="../../step_9/d6_table_3_asd_before_after_weighting/index.html">D6_Table_3_asd_before_after_weighting</a></li>
+          <li data-nav-id="/step_9/d6_table_s2_or/index.html" class=""><a class="padding" href="../../step_9/d6_table_s2_or/index.html">D6_Table_S2_OR</a></li>
+          <li data-nav-id="/step_9/d6_table_4_follow_up_time_and_reasons_for_censoring/index.html" class=""><a class="padding" href="../../step_9/d6_table_4_follow_up_time_and_reasons_for_censoring/index.html">D6_Table_4_follow_up_time_and_reasons_for_censoring</a></li>
+          <li data-nav-id="/step_9/d6_table_5_crude_ir_rmst/index.html" class=""><a class="padding" href="../../step_9/d6_table_5_crude_ir_rmst/index.html">D6_Table_5_crude_IR_RMST</a></li>
+          <li data-nav-id="/step_9/d6_table_s2_crude_and_adjusted_differences_in_rmst/index.html" class=""><a class="padding" href="../../step_9/d6_table_s2_crude_and_adjusted_differences_in_rmst/index.html">D6_Table_S2_Crude_and_adjusted_differences_in_RMST</a></li>
+          <li data-nav-id="/step_9/d6_table_6_hr/index.html" class=""><a class="padding" href="../../step_9/d6_table_6_hr/index.html">D6_Table_6_HR</a></li>
+          <li data-nav-id="/step_9/d6_table_8_sa/index.html" class=""><a class="padding" href="../../step_9/d6_table_8_sa/index.html">D6_Table_8_SA</a></li>
+          <li data-nav-id="/step_9/d6_table_10_tp/index.html" class=""><a class="padding" href="../../step_9/d6_table_10_tp/index.html">D6_Table_10_TP</a></li>
+          <li data-nav-id="/step_9/d6_supplementary_figure_2_mice/index.html" class=""><a class="padding" href="../../step_9/d6_supplementary_figure_2_mice/index.html">D6_Supplementary_Figure_2_MICE</a></li>
+          <li data-nav-id="/step_9/d6_table_s3/index.html" class=""><a class="padding" href="../../step_9/d6_table_s3/index.html">D6_table_S3</a></li>
+          <li data-nav-id="/step_9/d6_table_11_sa_mice/index.html" class=""><a class="padding" href="../../step_9/d6_table_11_sa_mice/index.html">D6_Table_11_SA_MICE</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram.html"><i class='fas fa-project-diagram'></i> Diagram</a></li>
+            <li><a class="padding" href="https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram_draft.html"><i class='fas fa-project-diagram'></i> Diagram</a></li>
+            <li><a class="padding" href="https://github.com/target-roc19/case-study-03-dapagliflozin-public"><i class='fab fa-fw fa-github'></i> GitHub repo</a></li>
+            <li><a class="padding" href="https://github.com/target-roc19/case-study-03-dapagliflozin-public/wiki"><i class='fas fa-link'></i> Related scripts</a></li>
+            <li><a class="padding" href="https://vac4eu.org/"><i class='fas fa-fw fa-syringe'></i> VAC4EU</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <div class="padding menu-control">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="select-language">Language</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option lang="en" id="en" value="/step_7/d5_resultsir_hr_mice/index.html" selected>English</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <div class="padding menu-control">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="select-variant">Theme</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="auto" value="auto" selected>Auto</option>
+                    <option id="relearn-bright" value="relearn-bright">Relearn Bright</option>
+                    <option id="relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="neon" value="neon">Neon</option>
+                    <option id="learn" value="learn">Learn</option>
+                    <option id="blue" value="blue">Blue</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="red" value="red">Red</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks">
+              <div class="padding menu-control">
+                <i class="fas fa-history fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <button onclick="clearHistory();">Clear History</button>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+          <style>
+            #footer {
+              font-size: .8125rem;
+              height: 6.25rem;
+              margin-left: auto;
+              margin-right: auto;
+              padding: 1rem 1rem;
+              text-align: center;
+              min-width: 14.375rem;
+              max-width: 18.75rem;
+            }
+            #footer p {
+              margin: 0;
+            }
+          </style>
+          <span class="github-buttons">
+          </span>
+          
+          <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          <script>
+            function githubButtonsScheme(){
+              var scheme = 'light';
+              var colorPropertyValue = window.getComputedStyle( document.querySelector( '#sidebar' ) ).getPropertyValue( 'background-color' );
+              var colorValues = colorPropertyValue.match( /\d+/g ).map( function( e ){ return parseInt(e,10); });
+              if( colorValues.length === 3 && ((0.2126 * colorValues[0]) + (0.7152 * colorValues[1]) + (0.0722 * colorValues[2]) < 165) ){
+                
+                scheme = 'dark';
+              }
+              return scheme;
+            }
+            document.addEventListener( 'themeVariantLoaded', function( e ){
+              
+              var scheme = githubButtonsScheme();
+              var githubButtonsHTML = `
+                <a class="github-button" href="https://github.com/target-roc19/case-study-03-dapagliflozin-public/releases/tag/v1.0.0" data-color-scheme="${scheme}" data-icon="octicon-cloud-download" aria-label="Download VAC4EU/CVM on GitHub">Download</a>
+                <a class="github-button" href="https://github.com/target-roc19/case-study-03-dapagliflozin-public" data-color-scheme="${scheme}" data-icon="octicon-star" data-show-count="true" aria-label="Star VAC4EU/CVM on GitHub">Star</a>
+                <a class="github-button" href='https://github.com/target-roc19/case-study-03-dapagliflozin-public/fork' data-color-scheme="${scheme}" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork target-roc19/case-study-03-dapagliflozin-public on GitHub">Fork</a>
+               `;
+              document.querySelector( '.github-buttons' ).innerHTML = githubButtonsHTML;
+              if( window.githubButtons ){
+                setTimeout( function(){
+                  // we have to wait until the CSS class .default-animation has settled and recalculate the scheme again
+                  var scheme = githubButtonsScheme();
+                  document.querySelectorAll( '.github-button' ).forEach( function( anchor ){
+                    anchor.dataset.colorScheme = scheme;
+                    window.githubButtons.render( anchor, function( el ){
+                      anchor.parentNode.replaceChild( el, anchor );
+                    });
+                  });
+                }, 400 );
+              }
+            });
+          </script>
+          <script async src="../../js/github-buttons.js"></script>
+        </div>
+      </div>
+    </aside>
+    <script src="../../js/clipboard.min.js" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<script>
+  document.getElementById("defaultOpen").click();
+</script>
+
+  </body>
+</html>

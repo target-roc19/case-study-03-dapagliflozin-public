@@ -1,0 +1,18 @@
+---
+weight: 3
+name_excel: "D3_EXP_ACT_COV_IMPUTATION.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+slug: "D3_EXP_ACT_COV_IMPUTATION"
+datetime: 1.7939632e+09
+title: D3_EXP_ACT_COV_IMPUTATION
+author: ''
+date: '2026-11-06'
+categories: []
+tags: []
+archetype: codebook
+output: html_document
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

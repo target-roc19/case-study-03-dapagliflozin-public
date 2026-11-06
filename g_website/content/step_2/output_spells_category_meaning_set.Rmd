@@ -1,0 +1,18 @@
+---
+weight: 3
+name_excel: "output_spells_category_meaning_set.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+slug: "output_spells_category_meaning_set"
+datetime: 1.7939631e+09
+title: output_spells_category_meaning_set
+author: ''
+date: '2026-11-06'
+categories: []
+tags: []
+archetype: codebook
+output: html_document
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation for TARGET CS3 project on TARGET CS3 Documentation</title>
+    <link>/index.html</link>
+    <description>Recent content in Documentation for TARGET CS3 project on TARGET CS3 Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>_index.en</title>
+      <link>/step_0/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_0/index.html</guid>
+      <description>SETTINGSSUBPOP </description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_1/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_1/index.html</guid>
+      <description>codelist_id_datasetitemset_id_dataset </description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_2/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_2/index.html</guid>
+      <description>D3_PERSONScontains the cleaned version of PERSONS, where death date is reconstituted as date
+D3_OBSPERIODScontains the spells all the continuous spells of observation period of each person. in CPRD two versions of this dataset are generate, where the records are stratified per category: category_subpop = PC means that during the period the person is observed in primary care; category_subpop = PC_HOSP means that during the period the person is observed both in primary care and in hospital</description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_3/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_3/index.html</guid>
+      <description>D3_STUDY_POPULATIONstudy population with their basic variables.
+ </description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_4/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_4/index.html</guid>
+      <description>D3_covariate_complex_IMPUTED_TDD3_EXP_ACT_COVstudy population with all covariates, before imputation
+D3_EXP_ACT_COV_IMPUTATIONstudy population with all covariates, after imputation
+D3_OUTCOMESOutcomes observed in the study population after t0 (&amp;gt; t0), including setting that prompted the observation
+D5_DIAGNOSTIC_MEANING_OUTCOMESD5_DIAGNOSTIC_MEANING_OUTCOMES_masked </description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_5/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/index.html</guid>
+      <description>D4_EXP_ACT_COV_WEIGHTexposed and comparators with covariates and weights
+D5_PS_model_ORD4_FUPexposed and comparators with follow-up time
+D5_check_recommended_end_dateD5_check_recommended_end_date_maskedD5_check_components_outcomeD5_check_components_outcome_maskedD4_EXP_ACT_COV_WEIGHT_TRUNCATEDexposed and comparators with covariates and weights, and truncated weights; records of persons with 0 weights are not included
+D4_ANALYTICAL_DATASET_HR_RMST_TPanalytical dataset with outcome indicator and follow-up time for each estimand (E1, E2, E3a, E3b) and for the tipping point analyses (TP1-TP4), used to compute incidence rates, hazard ratios and RMST
+D4_CENSORING_WEIGHTS_TRUNCATEDexposed and comparators with covariates and weights</description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_7/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_7/index.html</guid>
+      <description>D5_Table_1Distribution and overlap of propensity scores by treatment group. A separate graph will be generated for the Finnish and UK database instances. D5_Table_2_baseline_cohortTable 2. Patient Characteristics
+D5_Supplementary_Figure_1Distribution and overlap of propensity scores by treatment group.
+D5_Table_3_asd_before_after_trimmingD5_Table_4_follow_up_time_and_reasons_for_censoringTable 4. Follow-up time, intercurrent events, and reasons for censoring overall and by treatment group
+D5_table_S3D5_ResultsIR_HRResults of estimands and sensitivity analyses that use Incidence Rate and Cox model
+D5_ResultsRMSTnumber of persons and outcomes, person-years and incidence rates for E1, E2 and E3; crude and IPTW-adjusted restricted mean survival time (RMST) and its difference for E3 at 3 and 5 years</description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_8/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_8/index.html</guid>
+      <description>D5_Table_1_maskedD5_Table_1 (attrition table) with counts between 1 and 4 masked; the same step also exports excluded_counts_masked, used for Figure 1
+D5_Table_2_baseline_cohort_maskedD5_Table_2_baseline_cohort with counts between 1 and 4 masked; all variables are stored as character
+D5_Supplementary_Figure_1_maskeddistribution of the propensity score by treatment group, in bins of width 0.05, with frequencies between 1 and 4 masked
+D5_Table_3_asd_before_after_trimming_maskedD5_Table_3_asd_before_after_trimming with the unweighted counts (before weighting) between 1 and 4 masked; all variables are stored as character</description>
+    </item>
+    <item>
+      <title>_index.en</title>
+      <link>/step_9/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_9/index.html</guid>
+      <description>D6_Table_1Table 1. Attrition table, one pair of columns (N, %) per datasource; saved as .docx, .html and .pdf. The same step creates D6_Figure_1_masked (.png, flowchart from excluded_counts_masked)
+D6_Figure_1_masked.pngD6_Table_2_baseline_cohortTable 2. Patient Characteristics before imputation
+D6_Supplementary_Figure_1Supplementary Figure 1. Propensity score overlap by treatment group: histogram of the frequencies by bin, with the 1st and 99th percentile of each group as vertical lines; one PDF per datasource and subpopulation (D6_Supplementary_Figure_1_&amp;lt;ds&amp;gt;.pdf, 10 x 8 inches)</description>
+    </item>
+  </channel>
+</rss>

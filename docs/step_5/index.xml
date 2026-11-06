@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_index.en on TARGET CS3 Documentation</title>
+    <link>/step_5/index.html</link>
+    <description>Recent content in _index.en on TARGET CS3 Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="/step_5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D4_EXP_ACT_COV_WEIGHT</title>
+      <link>/step_5/d4_exp_act_cov_weight/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_exp_act_cov_weight/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D4_EXP_ACT_COV_WEIGHT&#34;,&#34;exposed and comparators with covariates and weights&#34;,&#34;an exposed or comparators pair (with t0)&#34;,&#34;D3_STUDY_POPULATION&#34;,&#34;1&#34;,&#34;1&#34;,&#34;person_id t0&#34;,&#34;person_id t0&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;8690551cf03140a3f2bc380dcf07fbe7&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;person_id&#34;,&#34;t0&#34;,&#34;exposure&#34;,&#34;_at_t0&#34;,&#34;ps&#34;,&#34;weight&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[null,null,&#34;whether the person is exposed or comparator&#34;,null,&#34;propensity score&#34;,&#34;weight (non truncated)&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Format&#34;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Vocabulary&#34;:[null,null,&#34;1 =exposed\n0 = comparator&#34;</description>
+    </item>
+    <item>
+      <title>D5_PS_model_OR</title>
+      <link>/step_5/d5_ps_model_or/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d5_ps_model_or/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D4_FUP</title>
+      <link>/step_5/d4_fup/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_fup/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D4_FUP&#34;,&#34;exposed and comparators with follow-up time&#34;,&#34;an exposed or comparators pair (with t0)&#34;,&#34;D3_STUDY_POPULATION&#34;,&#34;1&#34;,&#34;1&#34;,&#34;person_id&#34;,&#34;person_id&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;cbdb8661002078c762b36eb42d0c9405&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;person_id&#34;,&#34;t0&#34;,&#34;exposure&#34;,&#34;birth_year&#34;,&#34;exit_spell_category&#34;,&#34;death_date&#34;,&#34;discontinuation_date&#34;,&#34;new_medicine_date&#34;,&#34;new_is_switch&#34;,&#34;switch_date&#34;,&#34;addition_date&#34;,&#34;end_time_window_fup&#34;,&#34;outcome_date&#34;,&#34;censoring_date&#34;,&#34;cause_of_censoring&#34;,&#34;censoring_date_E1&#34;,&#34;cause_of_censoring_E1&#34;,&#34;fup_days_E1&#34;,&#34;date_intercurring_events_E1&#34;,&#34;censoring_date_excluding_intercurring_E1&#34;,&#34;censoring_date_E2&#34;,&#34;cause_of_censoring_E2&#34;,&#34;fup_days_E2&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[null,null,&#34;whether the person is exposed or comparator&#34;,null,null,null,&#34;End of index episode of treatment, see Table 9 of study protocol&#34;</description>
+    </item>
+    <item>
+      <title>D5_check_recommended_end_date</title>
+      <link>/step_5/d5_check_recommended_end_date/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d5_check_recommended_end_date/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D5_check_recommended_end_date_masked</title>
+      <link>/step_5/d5_check_recommended_end_date_masked/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d5_check_recommended_end_date_masked/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D5_check_components_outcome</title>
+      <link>/step_5/d5_check_components_outcome/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d5_check_components_outcome/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D5_check_components_outcome_masked</title>
+      <link>/step_5/d5_check_components_outcome_masked/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d5_check_components_outcome_masked/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>D4_EXP_ACT_COV_WEIGHT_TRUNCATED</title>
+      <link>/step_5/d4_exp_act_cov_weight_truncated/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_exp_act_cov_weight_truncated/index.html</guid>
+      <description>MetadataData ModelParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D4_EXP_ACT_COV_WEIGHT_TRUNCATED&#34;,&#34;exposed and comparators with covariates and weights, and truncated weights; records of persons with 0 weights are not included&#34;,&#34;an exposed or comparators pair (with t0) with weight  0&#34;</description>
+    </item>
+    <item>
+      <title>D4_ANALYTICAL_DATASET_HR_RMST_TP</title>
+      <link>/step_5/d4_analytical_dataset_hr_rmst_tp/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_analytical_dataset_hr_rmst_tp/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+    <item>
+      <title>D4_CENSORING_WEIGHTS_TRUNCATED</title>
+      <link>/step_5/d4_censoring_weights_truncated/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_censoring_weights_truncated/index.html</guid>
+      <description>MetadataData ModelParameters_oldParametersExample{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;medatata_name&#34;:[&#34;Name of the dataset&#34;,&#34;Content of the dataset&#34;,&#34;Unit of observation&#34;,&#34;Dataset where the list of UoOs is fully listed and with 1 record per UoO&#34;,&#34;How many observations per UoO&#34;,&#34;NxUoO&#34;,&#34;Variables capturing the UoO&#34;,&#34;Primary key&#34;,&#34;Parameters&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;metadata_content&#34;:[&#34;D4_CENSORING_WEIGHTS_TRUNCATED&#34;,&#34;exposed and comparators with covariates and weights&#34;,&#34;an exposed or comparators pair (with t0)&#34;,&#34;D3_STUDY_POPULATION&#34;,&#34;1&#34;,&#34;1&#34;,&#34;person_id t0&#34;,&#34;person_id t0&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},&#34;columns&#34;:[{&#34;id&#34;:&#34;medatata_name&#34;,&#34;name&#34;:&#34;medatata_name&#34;,&#34;type&#34;:&#34;character&#34;},{&#34;id&#34;:&#34;metadata_content&#34;,&#34;name&#34;:&#34;metadata_content&#34;,&#34;type&#34;:&#34;character&#34;}],&#34;sortable&#34;:false,&#34;searchable&#34;:true,&#34;pagination&#34;:false,&#34;highlight&#34;:true,&#34;bordered&#34;:true,&#34;striped&#34;:true,&#34;style&#34;:{&#34;maxWidth&#34;:1800},&#34;height&#34;:&#34;600px&#34;,&#34;dataKey&#34;:&#34;f2c897a34679051fe0ff68f7b7907737&#34;},&#34;children&#34;:[]},&#34;class&#34;:&#34;reactR_markup&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}{&#34;x&#34;:{&#34;tag&#34;:{&#34;name&#34;:&#34;Reactable&#34;,&#34;attribs&#34;:{&#34;data&#34;:{&#34;Varname&#34;:[&#34;person_id&#34;,&#34;t0&#34;,&#34;exposure&#34;,&#34;fup_days_E1&#34;,&#34;intercurrent_event&#34;,&#34;date_intercurring_events_E1&#34;,&#34;truncated_product_weight&#34;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],&#34;Description&#34;:[null,null,&#34;whether the person is exposed or comparator&#34;,&#34;count the numbe rof days to intercurrent event&#34;</description>
+    </item>
+    <item>
+      <title>D4_EXP_ACT_COV_WEIGHT_MICE</title>
+      <link>/step_5/d4_exp_act_cov_weight_mice/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_exp_act_cov_weight_mice/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+    <item>
+      <title>D4_EXP_ACT_COV_WEIGHT_MICE_TRUNCATED</title>
+      <link>/step_5/d4_exp_act_cov_weight_mice_truncated/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_exp_act_cov_weight_mice_truncated/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+    <item>
+      <title>D4_ANALYTICAL_DATASET_HR_MICE</title>
+      <link>/step_5/d4_analytical_dataset_hr_mice/index.html</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>/step_5/d4_analytical_dataset_hr_mice/index.html</guid>
+      <description>MetadataData ModelParametersExample</description>
+    </item>
+  </channel>
+</rss>

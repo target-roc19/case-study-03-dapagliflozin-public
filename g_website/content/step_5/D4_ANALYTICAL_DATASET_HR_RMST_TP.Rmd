@@ -1,0 +1,18 @@
+---
+weight: 9
+name_excel: "D4_ANALYTICAL_DATASET_HR_RMST_TP.xlsx"
+description: "`r get_description(rmarkdown::metadata$name_excel)`"
+slug: "D4_ANALYTICAL_DATASET_HR_RMST_TP"
+datetime: 1.7939633e+09
+title: D4_ANALYTICAL_DATASET_HR_RMST_TP
+author: ''
+date: '2026-11-06'
+categories: []
+tags: []
+archetype: codebook
+output: html_document
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+html_codebook(rmarkdown::metadata$name_excel)
+```

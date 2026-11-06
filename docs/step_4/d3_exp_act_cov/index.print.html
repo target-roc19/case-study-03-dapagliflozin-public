@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.95.0">
+    <meta name="generator" content="Relearn 5.19.0+tip">
+    <meta name="description" content="study population with all covariates, before imputation">
+    <meta name="author" content="ARS Tuscany">
+    <title>D3_EXP_ACT_COV :: TARGET CS3 Documentation</title>
+    <link href="../../step_4/d3_exp_act_cov/index.html" rel="canonical" type="text/html" title="D3_EXP_ACT_COV :: TARGET CS3 Documentation">
+    <link href="../../step_4/d3_exp_act_cov/index.xml" rel="alternate" type="application/rss+xml" title="D3_EXP_ACT_COV :: TARGET CS3 Documentation">
+    <link href="../../images/logo.svg" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../../css/fontawesome-all.min.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fontawesome-all.min.css" rel="stylesheet"></noscript>
+    <link href="../../css/nucleus.css" rel="stylesheet">
+    <link href="../../css/auto-complete.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/auto-complete.css" rel="stylesheet"></noscript>
+    <link href="../../css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="../../css/fonts.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../css/fonts.css" rel="stylesheet"></noscript>
+    <link href="../../css/theme.css" rel="stylesheet">
+    <link href="../../css/theme-auto.css" rel="stylesheet" id="variant-style">
+    <link href="../../css/variant.css" rel="stylesheet">
+    <link href="../../css/print.css" rel="stylesheet" media="print">
+    <link href="../../css/format-print.css" rel="stylesheet">
+    <link href="../../css/ie.css" rel="stylesheet">
+    <script src="../../js/url.js"></script>
+    <script src="../../js/variant.js"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../../index.search.js";
+      var root_url="../../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'zen-dark', 'neon', 'learn', 'blue', 'green', 'red' ] );
+    </script><style>
+#body img.bg-white {
+        background-color: white;
+}
+
+div.main-container {
+  max-width: 1800px;
+}
+
+.tab {font-family: Arial;}
+
+ 
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+ 
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ 
+.tab button:hover {
+  background-color: #ddd;
+}
+
+ 
+.tab button.active {
+  background-color: #ccc;
+}
+
+ 
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@media screen and (min-width: 1300px) {
+   
+  #body .flex-block-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    width: 100%;
+  }
+}
+
+</style>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../../step_4/d3_exp_act_cov/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../index.html"><span itemprop="name">Documentation for TARGET CS3 project</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../../step_4/index.html"><span itemprop="name">_index.en</span></a><meta itemprop="position" content="2"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">D3_EXP_ACT_COV</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable codebook" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="codebook">
+            <header class="headline">
+            </header>
+<h1 id="d3_exp_act_cov">D3_EXP_ACT_COV</h1>
+
+<script src="../../rmarkdown-libs/core-js/shim.min.js"></script>
+<script src="../../rmarkdown-libs/react/react.min.js"></script>
+<script src="../../rmarkdown-libs/react/react-dom.min.js"></script>
+<script src="../../rmarkdown-libs/reactwidget/react-tools.js"></script>
+<script src="../../rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<link href="../../rmarkdown-libs/reactable/reactable.css" rel="stylesheet" />
+<script src="../../rmarkdown-libs/reactable-binding/reactable.js"></script>
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, &#39;Metadata&#39;)" id="defaultOpen">Metadata</button>
+<button class="tablinks" onclick="openCity(event, &#39;Data Model&#39;)">Data Model</button>
+<button class="tablinks" onclick="openCity(event, &#39;Parameters&#39;)">Parameters</button>
+<button class="tablinks" onclick="openCity(event, &#39;Example&#39;)">Example</button>
+</div>
+<div id="Metadata" class="tabcontent">
+<div id="htmlwidget-1" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"medatata_name":["Name of the dataset","Content of the dataset","Unit of observation","Dataset where the list of UoOs is fully listed and with 1 record per UoO","How many observations per UoO","NxUoO","Variables capturing the UoO","Primary key","Parameters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"metadata_content":["D3_EXP_ACT_COV","study population with all covariates, before imputation","persons in the study population","D3_STUDY_POPULATION","1","1","person_id","person_id",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"medatata_name","name":"medatata_name","type":"character"},{"id":"metadata_content","name":"metadata_content","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"a9533e1510f505fe91a0ddc06f8de3e7"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Data Model" class="tabcontent">
+<div id="htmlwidget-2" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Varname":["person_id","sex","birth_year","entry_spell_category","death_date","exit_spell_category","t0","exposure","age_at_t0","age_cat_at_t0","yrsdiab","<covar_cat>_at_t0","<covar_cont>_at_t0","<covar_ord>_at_t0",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Description":["person identifier",null,null,null,null,"date when person exits the window where it can be followed","date of the first record of dapagliflozin or DPP4-i during the study period","whether the person is exposed to the study drug, or to the active comparator","age at t0","age at t0 categorised","the number of days from the first diagnosis of diabetes to t0, divided by 365.25",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Format":[null,null,null,"date","date","date","date","binary","integer","categorical","float",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Vocabulary":[null,"F = Female\nM = Male\nO = other",null,null,null,null,null,"1 = dapagliflozin\n0 = DPP4-i",null,"<65 \n65-74 \n75-84 \n>=85",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Parameters":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Notes and examples":[null,"the cases when sex_at_instance_creation == U have been removed",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Source tables and variables":["D3_PERSONS","D3_ELIGIBILITY","D3_ELIGIBILITY","D3_ELIGIBILITY","D3_PERSONS","D3_ELIGIBILITY_EPISODE \nD3_ELIGIBILITY","D3_ELIGIBILITY\n D3_ELIGIBILITY_EPISODE","D3_ELIGIBILITY_EPISODE \nD3_ELIGIBILITY",null,null,"D3_ELIGIBILITY_EPISODE \nD3_ELIGIBILITY","D3_<covar_cat>_TD","D3_<covar_cont>_TD","D3_<covar_ord>_TD",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Retrieved":["yes",null,"yes","yes","yes","yes",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Calculated":[null,"yes",null,null,null,null,"yes","yes","yes","yes","yes","yes","yes","yes",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Algorithm_id":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"Rule":[null,"sex = sex_at_instance_creation",null,null,null,null,null,null,"year(t0)-birth_year",null,"(t0-T1D_diag)/365,25","merge with the unique record of the TD dataset such that start_d <= t0 & end_d >= t0","merge with the unique record of the TD dataset such that start_d <= t0 & end_d >= t0","merge with the unique record of the TD dataset such that start_d <= t0 & end_d >= t0",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"Varname","name":"Varname","type":"character"},{"id":"Description","name":"Description","type":"character"},{"id":"Format","name":"Format","type":"character"},{"id":"Vocabulary","name":"Vocabulary","type":"character"},{"id":"Parameters","name":"Parameters","type":"logical"},{"id":"Notes and examples","name":"Notes and examples","type":"character"},{"id":"Source tables and variables","name":"Source tables and variables","type":"character"},{"id":"Retrieved","name":"Retrieved","type":"character"},{"id":"Calculated","name":"Calculated","type":"character"},{"id":"Algorithm_id","name":"Algorithm_id","type":"logical"},{"id":"Rule","name":"Rule","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"8c6d7451b1268c6c9542b513653d59e9"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Parameters" class="tabcontent">
+<div id="htmlwidget-3" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"parameter":["covar_cont","covar_cont","covar_cat","covar_cat","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord","covar_ord"],"values":["HbA1c","EGFR","Tobacco_use","CKD","Obesity","Heart_transplant","Microvascular_complications","Severe_hypoglycaemia","Diabetic_neuropathy","Diabetic_Retinopathy","Keto_lactate_acidosis","Lower_limb_amputations","COPD","Cancer","Major_organ_specific_bleeding","Bariatric_surgery","Kidney_Transplantation","Dialysis","Metformin","Sulfonylurea","Sulfonamides","Alfa_glucosidase_inhibitors","Thiazolidinediones","Other_GLDs","Insulin","ACE_inhibitors","ARBs","Beta_blockers","Low_high_ceiling_diuretics","Aldosterone_antagonists","Thiazide_diuretics","Calcium_channel_blockers","Digitoxin_digoxin","Antiarrhythmics","Statins","Warfarin","Aspirin","Purinergic_receptor_P2Y12_antagonists","Other_antiplatelets","Corticosteroids"],"name in protocol":["HbA1c","EGFR","Tobacco use","CKD stages 1-4 or stage 5","Obesity","Heart transplant","Microvascular complications","Severe hypoglycaemia","Diabetic neuropathy","Diabetic Retinopathy","Keto-/lactate acidosis","Lower limb amputations","COPD","Cancer","Major organ specific bleeding","Bariatric surgery","Kidney Transplantation","Dialysis","Metformin","Sulfonylurea","Sulfonamides","Alfa glucosidase inhibitors","Thiazolidinediones","Other GLDs","Insulin","ACE inhibitors","ARBs","Beta-blockers","Low/high ceiling diuretics","Aldosterone antagonists","Thiazide diuretics","Calcium channel blockers","Digitoxin/digoxin","Antiarrhythmics","Statins","Warfarin","Aspirin","Purinergic receptor P2Y₁₂ antagonists","Other antiplatelets","Corticosteroids"],"assigned in":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"]},"columns":[{"id":"parameter","name":"parameter","type":"character"},{"id":"values","name":"values","type":"character"},{"id":"name in protocol","name":"name in protocol","type":"character"},{"id":"assigned in","name":"assigned in","type":"numeric"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"a380963456e9d7e439d39720f9c2e200"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="Example" class="tabcontent">
+<div id="htmlwidget-4" class="reactable html-widget" style="width:auto;height:600px;"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"D3_STUDY_POPULATION":["person_id","P01","P02","P03",null,null,"D3_Obesity_TD","person_id","P01","P01","P02","P03","P03",null,"D3_HbA1c_TD","person_id","P01","P01","P02","P03","P03",null,"D3_CKD_TD","person_id","P01","P01","P02","P03","P03",null,null,"D3_Tobacco_use_TD","person_id","P01","P01","P02","P03","P03",null,null],"...2":["sex","F","M","F",null,null,null,"start_look_back",null,null,null,null,null,null,null,"start_look_back",null,null,null,null,null,null,null,"start_look_back",null,null,null,null,null,null,null,null,"start_look_back",null,null,null,null,null,null,null],"...3":["birth_year",null,null,null,null,null,null,"exit_spell_category",null,null,null,null,null,null,null,"exit_spell_category",null,null,null,null,null,null,null,"exit_spell_category",null,null,null,null,null,null,null,null,"exit_spell_category",null,null,null,null,null,null,null],"...4":["entry_spell_category",null,null,null,null,null,null,"value_of_Obesity","0","1","0","1","0",null,null,"value_of_HbA1c",null,"5.1",null,null,"5.6",null,null,"value_of_CKD","0","1-4","1-4","0","5",null,null,null,"value_of_Tobacco_use","2","1",null,"0","2",null,null],"...5":["death_date",null,null,null,null,null,null,"start_d","-5000","100","-5000","-5000","51",null,null,"start_d","-5000","100","-5000","-5000","51",null,null,"start_d","-5000","100","-5000","-5000","51",null,null,null,"start_d","-5000","100","-5000","-5000","51",null,null],"...6":["exit_spell_category",null,null,null,null,null,null,"end_d","99","200","1000","50","1000",null,null,"end_d","99","200","1000","50","1000",null,null,"end_d","99","200","1000","50","1000",null,null,null,"end_d","99","200","1000","50","1000",null,null],"...7":["t0","100","300","400",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...8":["exposure","1","0","0",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...9":["age_at_t0","67","41","53",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...10":["yrsdiab","6","5","2",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...11":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...12":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...13":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"...14":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"columns":[{"id":"D3_STUDY_POPULATION","name":"D3_STUDY_POPULATION","type":"character"},{"id":"...2","name":"...2","type":"character"},{"id":"...3","name":"...3","type":"character"},{"id":"...4","name":"...4","type":"character"},{"id":"...5","name":"...5","type":"character"},{"id":"...6","name":"...6","type":"character"},{"id":"...7","name":"...7","type":"character"},{"id":"...8","name":"...8","type":"character"},{"id":"...9","name":"...9","type":"character"},{"id":"...10","name":"...10","type":"character"},{"id":"...11","name":"...11","type":"character"},{"id":"...12","name":"...12","type":"character"},{"id":"...13","name":"...13","type":"character"},{"id":"...14","name":"...14","type":"character"}],"sortable":false,"searchable":true,"pagination":false,"highlight":true,"bordered":true,"striped":true,"style":{"maxWidth":1800},"height":"600px","dataKey":"e43b9ba3859909c3969fd1b8a56d24ac"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="../../js/clipboard.min.js" defer></script>
+    <script src="../../js/perfect-scrollbar.min.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<script>
+  document.getElementById("defaultOpen").click();
+</script>
+
+  </body>
+</html>

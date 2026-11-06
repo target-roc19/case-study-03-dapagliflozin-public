@@ -1,0 +1,159 @@
+publishDir: '../docs'
+baseURL: https://target-roc19.github.io/case-study-03-dapagliflozin-public/
+canonifyURLs: yes
+relativeURLs: yes
+uglyURLs: no
+theme: hugo-theme-relearn
+languageCode: en
+defaultContentLanguage: en
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+permalinks:
+  data-models: /:slug/
+title: TARGET CS3 Documentation
+outputs:
+  home:
+    - HTML
+    - RSS
+    - PRINT
+    - SEARCH
+    - SEARCHPAGE
+  page:
+    - HTML
+    - RSS
+    - PRINT
+  section:
+    - HTML
+    - RSS
+    - PRINT
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    guessSyntax: yes
+    lineNumbersInTable: no
+    noClasses: no
+server:
+  headers:
+    - for: '**.html'
+      values:
+        X-UA-Compatible: IE=edge
+languages:
+  en:
+    languageName: English
+    menu:
+      shortcuts:
+        - identifier: diagram 
+          name: <i class='fas fa-project-diagram'></i> Diagram
+          url: https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram.html
+          weight: 10
+        - identifier: diagram draft
+          name: <i class='fas fa-project-diagram'></i> Diagram
+          url: https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram_draft.html
+          weight: 10
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> GitHub repo
+          url: https://github.com/target-roc19/case-study-03-dapagliflozin-public
+          weight: 11
+        - identifier: link_script
+          name: <i class='fas fa-link'></i> Related scripts
+          url: https://github.com/target-roc19/case-study-03-dapagliflozin-public/wiki
+          weight: 12
+        - identifier: vac4eu
+          name: <i class='fas fa-fw fa-syringe'></i> VAC4EU
+          url: https://vac4eu.org/
+          weight: 13
+    params:
+      landingPageName: <i class='fas fa-home'></i> Home
+    title: TARGET CS3 Documentation
+    weight: 1
+  pir:
+    languageName: Arrr! ☠ Pirrrates ☠
+    menu:
+      shortcuts:
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> GitHub repo
+          url: https://github.com/target-roc19/case-study-03-dapagliflozin-public
+          weight: 10
+        - identifier: test
+          name: <i class='fas fa-fw fa-syringe'></i> VAC4EU
+          url: https://vac4eu.org/
+          weight: 11
+        - name: <i class='fas fa-fw fa-camera'></i> Showcases
+          pageRef: showcase/
+          weight: 12
+        - identifier: hugodoc
+          name: <i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n
+          url: https://gohugo.io/
+          weight: 20
+        - name: <i class='fas fa-fw fa-bullhorn'></i> Crrredits
+          pageRef: more/credits/
+          weight: 30
+        - name: <i class='fas fa-fw fa-tags'></i> Arrr! Tags
+          pageRef: tags/
+          weight: 40
+    params:
+      landingPageName: <i class='fas fa-home'></i> Arrr! Home
+    title: Cap'n Hugo Relearrrn Theme
+    weight: 2
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: data
+      target: data
+    - source: i18n
+      target: i18n
+    - source: ../images
+      target: static/images
+    - source: static/images
+      target: static/images
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
+params:
+#   additionalContentLanguage: en
+  author: ARS Tuscany
+  breadcrumbSeparator: '>'
+  collapsibleMenu: yes
+  description: TARGET CS3 Documentation
+  disableAssetsBusting: yes
+  disableBreadcrumb: no
+  disableInlineCopyToClipBoard: yes
+  disableLandingPageButton: no
+  disableLanguageSwitchingButton: yes
+  disableNextPrev: no
+  disableSeoHiddenPages: yes
+  mermaidInitialize: '{ "securityLevel": "loose" }'
+  mermaidZoom: yes
+  showVisitedLinks: no
+  siteparam:
+    test:
+      text: A **nested** parameter <b>with</b> formatting
+  themeVariant:
+    - auto
+    - relearn-bright
+    - relearn-light
+    - relearn-dark
+#    - zen-light
+    - zen-dark
+    - neon
+    - learn
+    - blue
+    - green
+    - red
+  themeVariantAuto:
+    - relearn-light
+    - relearn-dark
+  titleSeparator: '::'
+
+# security:
+#   funcs:
+#     getenv:
+#       - ^HUGO_
+#       - ^WC_
