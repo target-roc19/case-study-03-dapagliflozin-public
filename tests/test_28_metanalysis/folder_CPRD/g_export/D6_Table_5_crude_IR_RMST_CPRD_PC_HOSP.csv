@@ -1,5 +1,0 @@
-Comparison,N patients | DPP4-I,N events | DPP4-I,Person-Years | DPP4-I,Incidence rate (95% CI) | DPP4-I,N patients | SGLT2-I ,N events | SGLT2-I ,Person-Years | SGLT2-I ,Incidence rate (95% CI) | SGLT2-I ,Restricted mean survival time year 1 (95% CI) | DPP4-I,Restricted mean survival time year 1 (95% CI) | SGLT2-I ,Restricted mean survival time year 2 (95% CI) | DPP4-I,Restricted mean survival time year 2 (95% CI) | SGLT2-I 
-Estimand 1,133,0,305.92,0 (0–12.1),45,< 5,120.58,24.88 (5.1–72.7),N/A,N/A,N/A,N/A
-Estimand 2,133,0,83.3,0 (0–44.3),45,0,29.56,0 (0–124.8),N/A,N/A,N/A,N/A
-Estimand 3 year 3,133,0,305.92,0 (0–12.1),45,< 5,120.58,24.88 (5.1–72.7),N/A,N/A,N/A,N/A
-Estimand 3 year 5,133,0,229.89,0 (0–16),45,< 5,91.28,32.87 (6.8–96),N/A,N/A,N/A,N/A
