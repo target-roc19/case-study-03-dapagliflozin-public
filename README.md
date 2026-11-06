@@ -1,6 +1,8 @@
 # TARGET-EU CASE STUDY 3
 
-This repository contains code which implements [case study 3](https://catalogues.ema.europa.eu/node/4883/administrative-details) of the [TARGET-EU project](https://catalogues.ema.europa.eu/node/4440/administrative-details): Comparative effectiveness and safety studies using the target trial emulation and estimand frameworks. The repository contains the code which implements the study design of this case study, along with documentation of that code, and where feasible, dummy data which allows users to run and understand the code. Below we describe briefly the case study and document the repository and its operation.
+This repository contains code which implements [case study 3](https://catalogues.ema.europa.eu/node/4883/administrative-details) of the [TARGET-EU project](https://catalogues.ema.europa.eu/node/4440/administrative-details): Comparative effectiveness and safety studies using the target trial emulation and estimand frameworks. The repository contains the code which implements the study design of this case study, along with documentation of that code, and where feasible, dummy data which allows users to run and understand the code. Below we describe briefly the case study and document the repository and its operation. 
+
+A graphical guide to the code and its documentation can be found [here](https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram.html).
 
 ## Objective
 The primary objective is to estimate the effect of initiating dapagliflozin versus a DPP-4 inhibitor on time to first MACE, defined as a composite of non-fatal myocardial infarction, non-fatal stroke, and all-cause mortality among patients who have or are at risk of atherosclerotic cardiovascular disease (ASCVD)
@@ -17,11 +19,12 @@ Dapagliflozin, a sodium-glucose co-transporter 2 (SGLT2) inhibitor, has demonstr
 
 This repository contains all code necessary to reproduce the results contained in the case study report, that is, the analytic pipeline designed to implement the specific study design. The repository does not contain any real data: the real data remains on secure servers, and only fictitious dummy data is shared here for testing, development and illustration purposes.
 
-The analytic pipeline is conceptualised as a series of transformations (denoted "T") which transform data objects ("D") to other data objects [Gini et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27014709/), reprsented at high-level by this image
+The analytic pipeline is conceptualised as a series of transformations (denoted "T") which transform data objects ("D") to other data objects [Gini et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27014709/), represented at high-level by this image
 
 <img width="1538" height="767" alt="image" src="https://github.com/user-attachments/assets/ae1cd558-c996-4289-943c-15ec2af64144" />
 
-The exact analytic pipeline for this study is represented as a graph containing specific data objects and transformation and their relationships, available at this link
+The exact analytic pipeline for this study is represented as a graph containing specific data objects and transformation and their relationships, available at [this link](https://target-roc19.github.io/case-study-03-dapagliflozin-public/diagram.html).
+
 
 Each data object in the pipeline is documented in a corresponding codebook which describes how the data object is obtained from its inputs. Thereby, the codebooks specify the implementation of the given study design, which is executed by the scripts in the repository.
 
